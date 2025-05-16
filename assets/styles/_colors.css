@@ -1,0 +1,11 @@
+/* Pagrindinės spalvos */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #a4a4a4;
+    /* kairiojo meniu pasirintas punktas */
+    --md-primary-bg-color: rgb(255, 255, 255);
+    /* searcho padidinamasis stiklas ikona */
+    --md-accent-fg-color: #ffffff;
+    /* hoverinimo spalva, searcho isjungimo rastu sutampanciu zodziu spalva */
+    --md-default-bg-color: #1D1B19;
+    /* backgroundas "uz visko" */
+}
