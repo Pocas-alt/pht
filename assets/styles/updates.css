@@ -1,0 +1,224 @@
+/* Layout container */
+.page-wrapper {
+  max-width: auto;
+  margin: 2cm;
+  padding: 2rem 1rem;
+}
+
+/* Changelog structure */
+.changelog-container {
+  margin-top: 1cm;
+}
+
+.timeline {
+  position: absolute;
+  margin-left: 1px;
+  padding-left: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  bottom: 40px;
+  left: 50px;
+  /* aligns with bubbles */
+  width: 2px;
+  background: var(--color-border, #999);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 41px;
+  /* just left of the line */
+  width: 20px;
+  height: 20px;
+  background-color: var(--accent-color, #dc2626);
+  border-radius: 50%;
+  border: 0px solid white;
+  box-shadow: 0 0 0 1px var(--color-bg-surface, #1e1e1e);
+}
+
+
+.timeline-month {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 50px;
+  max-width: fit-content;
+}
+
+.timeline-item {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-date {
+  text-align: right;
+  position: relative;
+  top: 80px;
+  left: -55px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #D94E4F;
+  white-space: nowrap;
+}
+
+/* Entry card */
+.changelog-entry {
+  opacity: 0;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease, opacity 0.5s ease;
+}
+
+.visible .changelog-entry {
+  opacity: 1;
+}
+
+.changelog-entry {
+  position: relative;
+  background-color: var(--color-bg-surface, #a31414);
+  color: var(--color-text-main, #1a1a1a);
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.changelog-entry:hover {
+  transform: scale(1.1) translateX(10%);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.entry-header {
+  margin-bottom: 0.5rem;
+}
+
+.entry-tag {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Tag-specific colors */
+.changelog-entry.fix {
+  background-color: #dcfce7;
+  border-left: 4px solid #22c55e;
+}
+
+.entry-tag.fix {
+  background-color: #22c55e;
+  color: white;
+}
+
+.changelog-entry.update {
+  background-color: #e0f2fe;
+  border-left: 4px solid #0ea5e9;
+}
+
+.entry-tag.update {
+  background-color: #0ea5e9;
+  color: white;
+}
+
+.changelog-entry.new {
+  background-color: #f3e8ff;
+  border-left: 4px solid #a855f7;
+}
+
+.entry-tag.new {
+  background-color: #a855f7;
+  color: white;
+}
+
+.changelog-entry.improvement {
+  background-color: #fff7ed;
+  border-left: 4px solid #f97316;
+}
+
+.entry-tag.improvement {
+  background-color: #f97316;
+  color: white;
+}
+
+.changelog-entry.future {
+  background-color: #e0e7ff;
+  border-left: 4px solid #6366f1;
+}
+
+.entry-tag.future {
+  background-color: #6366f1;
+  color: white;
+}
+
+/* Visibility animation */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 1.5rem 1rem;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+
+  .timeline-item::before {
+    left: -1.25rem;
+  }
+
+  .timeline-date {
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline::before {
+    left: -1rem;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
