@@ -1,19 +1,35 @@
-body.light-theme #theme-toggle {
-  background-color: #1A1A1A;
-  color: white;
-}
-
-body.dark-theme #theme-toggle {
-  background-color: #EBEBEB;
-  color: #1a1a1a;
-  border: 0px solid #1a1a1a;
-}
-
 /* Layout container */
 .page-wrapper {
   max-width: auto;
   margin: 2cm;
   padding: 2rem 1rem;
+}
+
+.back-to-proimplant-guide {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  /* optional, ensures it’s on top of other content */
+}
+
+body.light-theme #theme-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: #1A1A1A;
+  color: white;
+}
+
+body.dark-theme #theme-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: #EBEBEB;
+  color: #1a1a1a;
+  border: 0px solid #1a1a1a;
 }
 
 /* Changelog structure */
