@@ -2,55 +2,61 @@
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Paciento informacijos skilties funkcionalumas (sandbox)",
+    "title": "Informacijos skilties - informacijos pridėjimas (sandbox)",
     "description": "klientas → informacija - nėra pridėti nauja (sandbox)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Paciento informacijos trynimas (sandbox)",
+    "title": "Informacijos skilties - informacijos trynimas (sandbox)",
     "description": "klientas → informacija - nėra ištrinti (sandbox)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
     "title": "Naujos pastabos atidarymas tame pačiame puslapyje",
-    "description": "Nauja pastaba paspaudus ne naujame puslapyje atidarineti, o tame\n                        pačiame ir\n                        pridėti grįžimo mygtuką nukreipiantį atgal į paciento vizitus"
+    "description": "Naują pastabą paspaudus ją atidaryti ne naujame puslapyje, o tame pačiame ir pridėti grįžimo mygtuką nukreipiantį atgal į paciento vizitus"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Bendras ateities vizitų vaizdas (sandbox)",
-    "description": "Bendras ateities vizitai (sandbox)"
+    "title": "Gražinti Ateities vizitus",
+    "description": "Bendras ateities vizitų vaizdas (sandbox)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "SMS siuntimas gydytojams ir pacientams (sandbox)",
-    "description": "SMS siuntimas gydytojams ir pac. (sandbox)"
+    "title": "SMS siuntimas",
+    "description": "SMS siuntimas gydytojams"
+  },
+  {
+    "date": "2025-05-16",
+    "tag": "fix",
+    "title": "SMS siuntimas",
+    "description": "SMS siuntimas pacientams"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Kalendorius: SMS atsakymo vaizdavimas",
-    "description": "vietoje pastabos vaizduoti SMS atsakymą"
+    "title": "SMS atsakymo vaizdavimas",
+    "description": "Kalendorius: vietoje pastabos vaizduoti SMS atsakymą (juodame fone)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Sign: pasirašymo funkcijos grąžinimas",
-    "description": "pasirašymas vėl priziūmė"
+    "title": "Sign: atvaizdavimas",
+    "description": "Dokumentai prizoominti ir netolygus dizainas"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Planų pasirašymas ir kitomis kalbomis",
-    "description": "Planų pasirašymas ir kitom kalbom (bent anglų k.)"
+    "title": "SIGN: English",
+    "description": "Dokumentų pasirašymas ir kitom kalbom (bent anglų k.)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
-    "title": "Statistika: teisingumo patikra",
+    "title": "Statistika: duomenų patikra",
     "description": "Kaip patikrinti ar statistika yra teisinga?"
   },
   {
@@ -63,25 +69,25 @@
     "date": "2025-05-16",
     "tag": "future",
     "title": "Vizito \"Nukreipimas pas\" ataskaita ir sekimas",
-    "description": "(?) Vizito \"Nukreipimas pas\" sekti nukreipimus ir teikti ataskaitą kiek\n                        kiekvienas gydytojas nukreipė pacientų. Reikia išsiaiškinti parametrus kaip filtruoti pvz.:\n                        visi, po\n                        pirmo vizito ir pan. taip pat randant būdų kaip padaryti, kad nukreipimo neskaitytų jeigu žmogus\n                        jau\n                        turi eiti pas kitą gydytoją. (Papildomas bonusas gydytojams)"
+    "description": "Sekti nukreipimus ir teikti ataskaitą, kiek kiekvienas gydytojas nukreipė pacientų. Reikia išsiaiškinti parametrus kaip filtruoti pvz.: visi, po pirmo vizito ir pan. taip pat randant būdų kaip padaryti, kad nukreipimo neskaitytų jeigu žmogus jau turi eiti pas kitą gydytoją. (Papildomas bonusas gydytojams)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
     "title": "Pokalbių analizė su AI",
-    "description": "Pokalbių analizė su AI (kaip kalba)"
+    "description": "Pokalbių analizė su AI (kaip kalba) vertinant aptarnavimo kokybę"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
     "title": "Platesnė pokalbių statistika",
-    "description": "Platesnė pokalbių statistika, kiek laiko užtrunka darbuotojui\n                        atsiliepti ir\n                        pan. (neskaičiuoti atostogų)"
+    "description": "Platesnė pokalbių statistika, kiek laiko užtrunka darbuotojui atsiliepti ir pan. (neskaičiuoti atostogų)"
   },
   {
     "date": "2025-05-16",
     "tag": "future",
     "title": "Vidutinės paslaugos kainos skaičiavimas",
-    "description": "Vidutinė paslaugos kaina t.y. kiek kainuoja paslauga pridėjus visas\n                        paslaugas\n                        (pvz. dantų plombavimas=plombavimas+nuskausminimai+sterilus+nuotraukos ir pan)"
+    "description": "Vidutinė paslaugos kaina t.y. kiek kainuoja paslauga pridėjus visas paslaugas (pvz. dantų plombavimas=plombavimas+nuskausminimai+sterilus+nuotraukos ir pan)"
   },
   {
     "date": "2025-05-15",
@@ -92,24 +98,12 @@
   {
     "date": "2025-05-13",
     "tag": "future",
-    "title": "SMS siuntimo funkcijos trūkumas Dental sistemoje",
-    "description": "SMS siuntimo nėra dental sistemoje (pacientams ir gydytojams)"
-  },
-  {
-    "date": "2025-05-13",
-    "tag": "future",
-    "title": "Telefono numerio naudojimas",
-    "description": "Naudoti +37063409687"
-  },
-  {
-    "date": "2025-05-13",
-    "tag": "future",
     "title": "Neaktyvių vartotojų pašalinimas iš pasirašymo",
-    "description": "Naujame pasirašyme ima neaktyvius vartotojus (pvz. Dovilė) (Ima iš\n                        Dental →\n                        Pasirašymas → Parašai (reikia ištrinti)) (Neleidžia ištrinti)"
+    "description": "Pasirašymas → Parašai neleidžia ištrinti"
   },
   {
     "date": "2025-05-13",
-    "tag": "future",
+    "tag": "futdddure",
     "title": "Kalendoriaus atvaizdavimo atnaujinimas po pasirašymo",
     "description": "Neatnaujina kalendoriuje atvaizdavimo, kai pasirašo sutartį/užpildo\n                        sveikatos\n                        būklės anketą (čia yra E25) (Pakeisti oranžine spalva į geltoną, jeigu gerai pamenu pagal ką\n                        statusai\n                        keičiasi tai dabar turėtų būti Raudonas - neužpildyta; Geltonas - E025 užregistruota, bet\n                        nepasirašyta;\n                        Žalias - užpildyta ir pasirašyta)"
   },
