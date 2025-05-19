@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Visi atnaujinimai — Pagal mėnesį</title>
     <link rel="stylesheet" href="assets/styles/colors.css" />
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="stylesheet" href="assets/styles/updates.css" />
+    <link rel="stylesheet" href="assets/styles/mobile.css" media="only screen and (max-width: 600px)">
 </head>
 
-<body class="dark-theme">
+<body class="dark-theme timeline-mobile">
     <div class="page-wrapper">
         <button id="theme-toggle">Perjungti temą 💡</button>
         <div class="changelog-container">
@@ -105,7 +106,21 @@
     // run after content is inserted
     document.addEventListener("DOMContentLoaded", animateItems);
 </script>
+<script>
+    function applyMobileClass() {
+        if (window.innerWidth <= 600) {
+            document.body.classList.add('timeline-mobile');
+        } else {
+            document.body.classList.remove('timeline-mobile');
+        }
+    }
 
+    // Run on load
+    applyMobileClass();
+
+    // Optional: run again on resize
+    window.addEventListener('resize', applyMobileClass);
+</script>
 </body>
 
 </html>
