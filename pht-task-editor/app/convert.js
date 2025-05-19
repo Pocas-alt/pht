@@ -1,0 +1,134 @@
+const fs = require('fs');
+const path = require('path');
+
+const inputPath = path.join(__dirname, '..', 'data', 'test.txt');
+const outputPath = path.join(__dirname, '..', 'data', 'structured-output.json');
+
+// Load previous data if exists
+let previousTasks = [];
+if (fs.existsSync(outputPath)) {
+    const raw = fs.readFileSync(outputPath, 'utf8');
+    previousTasks = JSON.parse(raw);
+}
+
+const input = fs.readFileSync(inputPath, 'utf8');
+const lines = input.split(/\r?\n/);
+
+const result = [];
+let currentDate = null;
+let currentTasks = [];
+let currentCategory = '';
+
+// Tag inference (simple keyword matching)
+function inferTag(text, done) {
+    const lower = text.toLowerCase();
+    if (!done) return 'future';
+    if (lower.includes('fix') || lower.includes('bug')) return 'fix';
+    if (lower.includes('new') || lower.includes('added')) return 'new';
+    if (lower.includes('improve') || lower.includes('better')) return 'improvement';
+    if (lower.includes('update') || lower.includes('updated')) return 'update';
+    return 'update';
+}
+
+// Detect date format like 25/04 or 25/04/24
+function isDate(line) {
+    return /^\d{2}\/\d{2}(\/\d{2})?$/.test(line.trim());
+}
+
+// Parse each line
+for (const lineRaw of lines) {
+    const line = lineRaw.trim();
+
+    if (isDate(line)) {
+        if (currentDate && currentTasks.length > 0) {
+            result.push({ date: currentDate, tasks: currentTasks });
+        }
+        currentDate = line;
+        currentTasks = [];
+        currentCategory = '';
+    } else if (line.startsWith('- [')) {
+        const done = line.startsWith('- [x]');
+        let text = line.slice(6).trim();
+
+        const tag = inferTag(text, done);
+        const [title, ...descParts] = text.split(/[:–—]/);
+        const description = descParts.join(':').trim();
+
+        currentTasks.push({
+            done,
+            tag,
+            title: title.trim(),
+            description: description || '',
+            category: currentCategory
+        });
+    } else if (line && !line.startsWith('-')) {
+        currentCategory = line.trim();
+    } else if (line && currentTasks.length > 0) {
+        currentTasks[currentTasks.length - 1].description += ' ' + line;
+    }
+}
+
+// Push last block
+if (currentDate && currentTasks.length > 0) {
+    result.push({ date: currentDate, tasks: currentTasks });
+}
+
+// Flatten and sort all tasks
+const allTasks = result.flatMap(group => {
+    let [y, m, d] = group.date.split('/');
+    if (y.length === 2) {
+        y = '20' + y; // Expand short year
+    }
+
+    const isoDate = `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
+    const dateObj = new Date(isoDate);
+
+    return group.tasks.map(task => ({
+        ...task,
+        date: isoDate,
+        _dateObj: dateObj
+    }));
+});
+
+// Sort by actual date (newest to oldest)
+allTasks.sort((a, b) => b._dateObj - a._dateObj);
+
+// Clean up temporary fields
+allTasks.forEach(task => delete task._dateObj);
+
+// Merge/update logic
+const updatedTasks = allTasks.map(newTask => {
+    const match = previousTasks.find(prev =>
+        prev.title === newTask.title &&
+        prev.date === newTask.date &&
+        prev.category === newTask.category
+    );
+
+    if (match) {
+        newTask.id = match.id;
+        newTask.locked = match.locked; // Preserve locked field even if false
+
+        if (match.locked) {
+            newTask.done = match.done;
+            newTask.tag = match.tag;
+        } else if (newTask.done !== match.done || newTask.tag !== match.tag) {
+            console.log(`🟡 Updated: ID ${match.id} - ${newTask.title}`);
+        }
+    } else {
+        newTask.locked = false;
+    }
+    return newTask;
+});
+
+let lastId = previousTasks.reduce((max, t) => Math.max(max, t.id || 0), 0);
+updatedTasks.forEach(task => {
+    if (!task.id) {
+        lastId += 1;
+        task.id = lastId;
+        console.log(`🆕 New: ID ${task.id} - ${task.title}`);
+    }
+});
+
+// Write result
+fs.writeFileSync(outputPath, JSON.stringify(updatedTasks, null, 2), 'utf8');
+console.log('✅ structured-output.json created with proper dates and order');

@@ -1,0 +1,1172 @@
+[
+  {
+    "done": false,
+    "tag": "future",
+    "title": "klientas --> informacija - nėra pridėti nauja (sandbox)",
+    "description": "",
+    "category": "Dental paciento tabai",
+    "date": "2025-05-16",
+    "id": 1,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "klientas --> informacija - nėra ištrinti (sandbox)",
+    "description": "",
+    "category": "Dental paciento tabai",
+    "date": "2025-05-16",
+    "id": 2,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Nauja pastaba paspaudus ne naujame puslapyje atidarineti, o tame paciame ir pridėti grizimo mygtuka nukreipianti atgal i pac vizitus",
+    "description": "",
+    "category": "Dental paciento tabai",
+    "date": "2025-05-16",
+    "id": 3,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Bendras ateities vizitai (sandbox)",
+    "description": "",
+    "category": "Dental meniu",
+    "date": "2025-05-16",
+    "id": 4,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "SMS siuntimas gydytojam ir pac. (sandbox)",
+    "description": "",
+    "category": "Dental meniu",
+    "date": "2025-05-16",
+    "id": 5,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "juodame issokanciame fone vietoje pastabos vaizduoti SMS atsakymą",
+    "description": "",
+    "category": "Kalendorius",
+    "date": "2025-05-16",
+    "id": 6,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Vizito kūrimas iš paciento kortelės",
+    "description": "",
+    "category": "Kalendorius",
+    "date": "2025-05-16",
+    "id": 7,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "pasirasimas vel prizoomina",
+    "description": "",
+    "category": "Sign",
+    "date": "2025-05-16",
+    "id": 8,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Plansu pasirasymas ir kitom kalbom (bent ang. k.)",
+    "description": "",
+    "category": "Sign",
+    "date": "2025-05-16",
+    "id": 9,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Kaip patikrinti ar statistika yra teisinga?",
+    "description": "",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 10,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Kaip patikrinti, kad gydytojų ataskaitos val. yra teisingos?",
+    "description": "",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 11,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "(?) Vizito \"Nukreipimas pas\" sekti nukreipimus ir teikti ataskaitą kiek kiekvienas gydytojas nukreipė pacientų. Reikia išsiaiškinti parametrus kaip filtruoti pvz.",
+    "description": "visi, po pirmo vizto ir pan. taip pat randant budu kaip padaryti, kad nukreipimo neskaiciuotu jeigu zmogus jau turi eiti pas kitą gydytoją. (Papildomas bonusas gydytojam)",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 12,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Pokalbiu analize su AI (kaip kalba)",
+    "description": "",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 13,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Platesnė pokalbiu statistika, kiek laiko užtrunka darbuotojui atsiliepti ir pan. (neskaiciuoti atostogu)",
+    "description": "",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 14,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Vidutinė paslaugos kaina ty. kiek kainuoja paslauga pridejus visas paslaugas (pvz. dantu plombavimas=plombavimas+nuskausminimai+sterilus+nuotraukos ir pan)",
+    "description": "",
+    "category": "Statistika",
+    "date": "2025-05-16",
+    "id": 15,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "SMS siuntimo nėra dental sistemoje (pacientam ir gydytojam)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 16,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Panaikinti senus linkus penktadieniui",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 17,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Sąmatos --> pasirasyti (paliekame \"(N) Pasirašyti\")",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 18,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Eik --> klientai --> pacientas --> paspaudimas ant datos (turi nuvesti ten, kur veda paspaudimas ant kalendoriaus)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 19,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Eik --> klientai --> dokumentų pasirašymas (arba visai panaikinti, arba idėti naujo pasirašymo linką)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 20,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Eik --> klientai --> kliento forma (atidaro kalendorių. Nežinau, kas čia iš viso turėtų būti)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 21,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> paspaudus ant vizito --> Kliento formos siuntimas SMS'u (naikiname ir seną pasirašymą)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 22,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> paspaudus ant vizito --> Dokumentų pasirašymas (paliekame tik naują dokumentų pasirašymą)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 23,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> paspaudus ant vizito --> Mokėjimai (turėtų nuvesti į pdf failą, o ne lapelio redagavimą)",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 24,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Pridėti linką į menu",
+    "description": "",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 25,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "https",
+    "description": "//pocebutas.amosas.com/dental/index.php/unfinished_visits/index \"kabantys vizitai\", nors mano nuomone jų nebereikia, nes turime laikinąsias juostas, bet pereinamąjam laikotarpiui reikia, kad atsirastų.",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 26,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Taip pat turi būti galimybė \"pakabinti\" vizitą šiame lange",
+    "description": " ---",
+    "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
+    "date": "2025-05-13",
+    "id": 27,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Naujame sąmatos pasirašyme neprideda sąmatos prie paciento",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 28,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Ar sąmatos pasirašymas (lietuviškos raidės pac. varde/pavardėje) pataisytas sandbox'e ar ir prod. turėtų veikti?",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 29,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> paspaudus ant vizito --> vizitai --> nauja pastaba (išjungus iššokusį langą atsirefreshina ir atidaro šiandien dieną. Turėtų likti toje pačioje dienoje su atidarytu \"vizitai\" tabu)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 30,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> paspaudus ant vizito --> pakeitus vizito informaciją ir paspaudus \"atnaujinti\" turėtų refreshinti puslapį, kad atsinaujintų vizito informacija kalendoriuje",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 31,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Naujame pasirašyme ima neaktyvius vartotojus (pvz. Dovile) ( Ima iš Dental -> Pasirašymas -> Parašai ( reikia ištrinti ) ) (Neleidžia ištrinti)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 32,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Neištraukia sveikatos būklės anketos iš naujo pasirašymo (dokumento id",
+    "description": "240 (2. Sveikatos būklės anketa))",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 33,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Neatnaujina kalendoriuje atvaizdavimo, kai pasirašo sutartį/užpildo sveikatos būklės anketą ( čia yra E25) (Pakeisti oranžine spalva į geltona, jeigu gerai pamenu pagal ką statusai keičiasi tai dabar turėtų būti Raudonas - neužpildyta; Geltonas - E025 užregistruota, bet nepasirašyta; Žalia - užpildyta ir pasirašyta()",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 34,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Keli kliento tipai neatvaizduojami (gal spalvų problema?)(Paskutinėje foto išrinkti tipai surie yra \"undefined\") (reik duombazei patikrinti) (s1 veikia gerai)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 35,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Reikia \"Ateities vizitų\" atvaizdavimo, bendram kalendoriaus vaizde kaip buvo eik sistemoj. (Dabar dental matosi ar turi ateity vizitų tik pelyte užėjus ant vizito iššokančiame juodame lange)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 36,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Nebenaudojami meniu punktai (sumastyti, gal galima juos kam nors pritaikyti)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 37,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Atspaudai",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 38,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Vekseliai",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 39,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Avansinis mokėjimas siunčiamas per contomobile kai apmokamas reikia, kad pakeistų tik apmokėjimo statusą ie nekeistų ar atvyks statuso (Raimundui)",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 40,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Pasirašyme pridėti Paragrafas name = \"signature\" --> gydytojo parašas. Parašus įkelsiu į https",
+    "description": "//pocebutas.amosas.com/dental/doctors_sign (Raimundas)",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 41,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Plansetes ekrane prideti, kuri kede pasirinkta",
+    "description": "",
+    "category": "Kita:",
+    "date": "2025-05-13",
+    "id": 42,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Dental --> vizitai (greitas) --> paslaugos pastabos (nėra ateities vizitų). Juos pridėti ir į atskira stulpelį \"sveikatos istorijos\" tabe",
+    "description": "",
+    "category": "25/05/15 Svarbu!",
+    "date": "2025-05-13",
+    "id": 43,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Informacijos skiltyje neleidžia pridėti naujo dokumento, jeigu jis buvo pridėtas eik sistemoje, negalima jo atsidaryti per dental. Paspaudus ant failo meta 404 klaidą.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-12",
+    "id": 44,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Reikia atvaizdavimo prie vizito, kad yra papildoma info (iki šiol būdavo ⓘ ikona)",
+    "description": "",
+    "category": "",
+    "date": "2025-05-12",
+    "id": 45,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Eik sistemos kalendoriaus uždarymas (per kiek laiko galima tai padaryti, kol kas tik paslepiam, kad kam nors nulūžus būtų galima pataisyti",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 46,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Prachekint prisijungimus (neleidzia ant vardo paspaudus keisti savo prisijungimo info) - https",
+    "description": "//pocebutas.amosas.com/dental/index.php/users/account (404 Page Not Found)",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 47,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Sufixinti, kad iš dental pereitu i eik, be papildomo prisijungimo",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 48,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Eik sistemoje išgaudyti linkus nukreipiančius į eik kalendoriu, pakeisti nuorodomis i dental.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 49,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 50,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Paieškoti, kur dar yra silpnųjų vietų.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 51,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 50,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Senaji resursu pasiskirstymą irgi paslėpti",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 53,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Išjungti seną pasirašymą ir panaikinti mygtuką \"Kliento formos siuntimas SMS'u\"",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 54,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Pridėti pac. amžių",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 55,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Darius klausia kokioje stadijoje jo balso irasai ai",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 56,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "romoex atnaujinti visus pacientus.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 57,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "kasa patesttuoti auto loada",
+    "description": "",
+    "category": "",
+    "date": "2025-05-08",
+    "id": 58,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Prideti notification'a kai kuriant mokejimo lapeli pasirankama daugiau nei vienas gydytojas (Notification'o spalvos \"išblukusios\")",
+    "description": "",
+    "category": "",
+    "date": "2025-05-06",
+    "id": 59,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dental --> Finansai --> Resursu pasiskirstymas (N). Neužkrauna lentelės, meta klaidą.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-05",
+    "id": 60,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Testinėje apilinkoje prisijungus su Mato arba Raimundo user'iu (9449 ar 9988 pin kodu), nerodo \"sistemos vartotojai\" skilties. Turėtų būti teisių problema. Suteikti Matui \"Valdžia\" teises",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 61,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Iš kairiojo menu atidarius daug tab'u neužkrauna vartotojo informacijos.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 62,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Atsidarius daug langų ir suvedus pin kodą kituose tabuose pradingsta pin užklausa, bet poto \"keisti darbuotoją\" mygtukas tampa neaktyvus. Tik parefreshinus ismeta pin langą.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 63,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Kai user'io pilnai neužkrauna galima papspausti \"baigti darbą\" ir grįti atgal į svetaine nesuvedus prisijungimo duomenų tik pin kodo prašo, bet meta klaidą. Paspaudus atsijungti leidžia likti svetainėje. Arba pradeda neperstojamai refreshintis.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 64,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Pasirašymo paketai ne pagal mano nurodytą tvarka pateikiami plančetėje.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 65,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "\"Paciento sutikimas\" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 5. Paciento sutikimas",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 66,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "\"Paciento atstovo sutikimas\" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 6. Paciento atstovo sutikimas",
+    "description": "",
+    "category": "",
+    "date": "2025-05-02",
+    "id": 67,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Dokumentų pasirašyme pataisyti formatą",
+    "description": "",
+    "category": "",
+    "date": "2025-04-18",
+    "id": 68,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Netolygus backgroundas (juoda juosta) Patikrinkite per chrome browseri",
+    "description": "",
+    "category": "",
+    "date": "2025-04-18",
+    "id": 69,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Perkelti pac. pasirašymą žemyn ir jį padidinti",
+    "description": "",
+    "category": "",
+    "date": "2025-04-18",
+    "id": 70,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Prie parašo pridėti vardą pavardę",
+    "description": "",
+    "category": "",
+    "date": "2025-04-18",
+    "id": 71,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Administratorių darbo laiko koregavimas. Dental sistemoje neleidžia ištrinti/pirdėti/pakeisti administratoriaus meta klaidą \"Bloga kėdė\".",
+    "description": "",
+    "category": "25/04/28 (Neleidžia antro administratoriaus pridėti)",
+    "date": "2025-04-18",
+    "id": 72,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Kadangi įvestis keitėsi iš Eik į Dental, reikia taip pat patikrinti ar kopijavimas veiks ty. ar leis kopijuoti tik administratoriaus darbo laiką per dienas, nekopijuojant asistentų ir gydytojų laikų.",
+    "description": "",
+    "category": "[]  Kalendorius --> pridėti administratorių +",
+    "date": "2025-04-18",
+    "id": 73,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Sutikrinti mokėjimų ir sąskaitų sumas | TURIU DAR PATS PASITIKRINTI|",
+    "description": "",
+    "category": "",
+    "date": "2025-04-17",
+    "id": 74,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Paciento sms atsakymas \"Taip.\" užskaitytų, kaip \"TAIP\". Dabar jeigu po atsakymo yra \".\" \",\" ar pan. neužskaito.",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 75,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "\"Vizitą\" pratempti per visa laukelį, sako, kad \"išlendantis background'as blogina matomumą, pavargsta akys\"",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 76,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Programos generuojamoje SF numeris klinikos nurodytas 86xxxxxx. Pakeisti į Teisingą formatą +3706xxxxx (gal sutvarkyta) (nenurodyta kur ir koks nr)",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 77,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Mokėjimo lapelis --> sąsk. PDF",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 78,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Sąmatos --> PDF",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 79,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Klientas --> pasirašytos sąmatos",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 80,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Naudoti +37063409687",
+    "description": "",
+    "category": "",
+    "date": "2025-04-14",
+    "id": 81,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Ištrinta sąskaita nepradingsta (sudėjau į visas dalis 0, kad skaičiavimo neiškreiptų). Ištrynus sąskaitą ar yra laiko tarpas per, kurį turi dingti iš resursų pasiskirstymo ar čia tiesiog bug'as?",
+    "description": "",
+    "category": "",
+    "date": "2025-04-11",
+    "id": 82,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "kurioj vietoj tu trini saskaitas?",
+    "description": "",
+    "category": "",
+    "date": "2025-04-11",
+    "id": 83,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Kreditinės SF neleidžia paskirstyti resursuose (įvesti minusinę sumą, gydytojui, sąnaudoms ir pan.)",
+    "description": "",
+    "category": "",
+    "date": "2025-04-08",
+    "id": 84,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Asistentas resursų pasiskirstyme nepriskiriamas",
+    "description": "",
+    "category": "",
+    "date": "2025-04-08",
+    "id": 85,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Pac. su užsenietišku nr. gauna iš mūsų žinutes, bet mes negauname iš jo.",
+    "description": "",
+    "category": "",
+    "date": "2025-04-08",
+    "id": 86,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "nematau, kad numeris 4792940735 butu kada atsiuntes sms, niekada.",
+    "description": "",
+    "category": "",
+    "date": "2025-04-08",
+    "id": 87,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Vizito info i desne puse (būtų galima vietoj kiento vardo, galbūt ir gydytojo, įrašyti pastabą)",
+    "description": "",
+    "category": "",
+    "date": "2025-03-24",
+    "id": 88,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "",
+    "description": "",
+    "category": "",
+    "date": "2025-03-24",
+    "id": 89,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Mokėjimo lapelių atvaizdavimas plancetese (padaryti taip pat kaip samatose tik nereikalingas pasirašymas) Kokios galimybes?",
+    "description": "",
+    "category": "25/04/07 (Pirmiausiai) Ar viskas?",
+    "date": "2025-03-24",
+    "id": 90,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Romexio nuotraukos ne visada sukrenta (pvz",
+    "description": "id 11662; 12113; 12254; 12830)",
+    "category": "25/04/07 (Pirmiausiai) Ar viskas?",
+    "date": "2025-03-24",
+    "id": 91,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Kasos reikalai",
+    "description": "",
+    "category": "25/04/07 (Pirmiausiai) Ar viskas?",
+    "date": "2025-03-24",
+    "id": 92,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Resursų pasiskirstyme neišfiltruoja paslaugų senesnių nei 2024/09",
+    "description": "",
+    "category": "",
+    "date": "2025-03-20",
+    "id": 93,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Rikiavimas resursų pasiskirstyme ne visada veikia",
+    "description": "",
+    "category": "",
+    "date": "2025-03-05",
+    "id": 94,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "25/05/08 dar nepataisyta (bent dienos darbas ar darom?)",
+    "description": "",
+    "category": "",
+    "date": "2025-03-05",
+    "id": 95,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Užregistravus naują pacientą dental sistemoje, nepaima naujo sutarties nr.",
+    "description": "",
+    "category": "",
+    "date": "2025-02-19",
+    "id": 96,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Ateities vizitai ir pastabos neatvaizduojamos prie vizito",
+    "description": "",
+    "category": "",
+    "date": "2025-02-12",
+    "id": 97,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "BUG'as sukurtame vizite nerodo informacijos, kas ir kada jį sukūrė. (Monika sako, kad ne pirmą kartą jau taip) (fix)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-12",
+    "id": 98,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Dental sistemoje duoda \"trinti\" vizitus su sąskaita. (Papildžiau Permishinai linkuose) (fix)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-12",
+    "id": 99,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Dental vaizduoja vizitus prie paciento, kurių nėra kalendoriuje (fix)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-12",
+    "id": 100,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Prie kliento \"SMS\" skiltyje po default rikiuoja naujausius irasus i apacia ir nepaima issiuntimo datos (fix)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-12",
+    "id": 101,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Atostogų prašymų neleidžia atmesti",
+    "description": "",
+    "category": "",
+    "date": "2025-02-11",
+    "id": 102,
+    "locked": false
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Dental tikriausiai ne visur sudėti raktai, nes paspaudus ant",
+    "description": "skambinančio žmogaus, resursu pasiskirstyme ant sąskaitos nr. ar id prašo prisijungti prie eik sistemos. Jeigu iš eik sistemos pereini į dental tuomet šie linkai veikia tvarkingai (not fix) (reikalingi dideli pakeitimai eik sistemoje)",
+    "category": "",
+    "date": "2025-02-11",
+    "id": 103,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Sąmatos -> sena sąmatą redaguojant palikti pazicijas su kainomis, kurios jau buvo išrašytos, bet pridedant naujas paslaugas, kainos imamos iš dabartinio kainyno. (Dabar nors kaina yra pakitusi gydytojai per sąmatas išrašo pozicijas su senomis kainomis to nežinodami)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-07",
+    "id": 104,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Panoraminių nuotraukų siuntimas per Romex vis dar neveikia. Klaidos jau nemeta, bet pacientai vis tiek negauna laiško",
+    "description": "",
+    "category": "",
+    "date": "2025-02-06",
+    "id": 105,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Priminimų redagavimas dar neveikia",
+    "description": "",
+    "category": "",
+    "date": "2025-02-06",
+    "id": 106,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Žmogiškieji resursai -> Atostogų prašymai - neleidžia atmesti atostogų prašymo (fix)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-05",
+    "id": 107,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Naujo pasirašymo integravimas",
+    "description": "",
+    "category": "",
+    "date": "2025-02-04",
+    "id": 108,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Vizitų ir priminimų slepimo funkcija - valdzia, admin",
+    "description": "",
+    "category": "",
+    "date": "2025-02-04",
+    "id": 109,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Priminimų redagavimas - valdzia, admin, gydytojas, asistentas",
+    "description": "",
+    "category": "",
+    "date": "2025-02-04",
+    "id": 110,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "\"Vizitai greitas\" keliems klientams neužkrauna indormacijos (pvz. #15374; #4040; #15386 ir kt.)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-04",
+    "id": 111,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "Esveikatos pasirasymas dental sistemoje neuzsikrauna. Panasu, kad linkas neteisingas jo galas - /sign/undefined",
+    "description": "",
+    "category": "",
+    "date": "2025-02-04",
+    "id": 112,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Gydytojų ataskaitoje \"- lab\" laboratorijos dalis nesutampa su resusų pasiskirstyme nurodyta dalimi. (Resursų pasiskirstyme rodo teisingai)  (fixed)",
+    "description": "",
+    "category": "",
+    "date": "2025-02-01",
+    "id": 113,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Zmogiskieji resursai",
+    "description": "> sistemos vartotojai bandant pasirinkti Search ‘tipa’ ismeta klaida (fixed)",
+    "category": "",
+    "date": "2025-02-01",
+    "id": 114,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Gal butu galima paslepti Komponentai",
+    "description": "> Paslaugos tuos skaicius prie pavadinimo “#30.00” ir pan? (fixed)",
+    "category": "",
+    "date": "2025-02-01",
+    "id": 115,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Menu",
+    "description": "> Darbo apskaita man nebeduoda darbuotoju isdirbto menesio ataskaitos. Prisegu pavyzdi koki seniau is cia parsisiusdavau (fixed)",
+    "category": "",
+    "date": "2025-02-01",
+    "id": 116,
+    "locked": false
+  },
+  {
+    "done": true,
+    "tag": "fix",
+    "title": "Admin bandė išsiųsti panoraminę nuotrauką per sistemą ir jai išmetė klaidą. Pabandėm ištrinti sąsają su romexiu (trinti ir atnaujinti), bet sistema iš romexio nepaima nuotraukų.  (email fixed)",
+    "description": " ---",
+    "category": "MATAI pakeista is admin i valdzia ar reikia daugiau kas gali siustis (tik valdžia)",
+    "date": "2025-02-01",
+    "id": 117,
+    "locked": false
+  }
+]

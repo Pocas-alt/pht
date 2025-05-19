@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"> <!-- 'data-theme' controls theme -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Editor App</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Link to the CSS file -->
+</head>
+
+<body>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" role="tab" aria-selected="true" data-tab-target="#editorPanel">Task Editor</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab-target="#changelogPanel">Changelog</button>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme">🌞</button>
+  </nav>
+
+  <!-- Task Editor Panel -->
+  <section id="editorPanel" class="tab-panel" role="tabpanel">
+    <div class="editor-layout">
+      <div id="task-list" class="task-list">
+        <!-- List of task titles will appear here -->
+      </div>
+      <div id="task-detail" class="task-detail">
+        <p>Select a task to edit.</p>
+      </div>
+    </div>
+    <button id="save-btn">Save Changes</button>
+  </section>
+
+  <!-- Changelog Panel -->
+  <section id="changelogPanel" class="tab-panel" role="tabpanel" hidden>
+    <div class="changelog-date-group">
+      <h3 class="date-heading">May 19, 2025</h3>
+      <div class="changelog-entry">
+        <div class="entry-dot"></div>
+        <div class="entry-content">
+          <p><strong>Title</strong> changed from "Design UI" to "Design UX".</p>
+          <span class="entry-meta">by Alice at 14:32</span>
+        </div>
+      </div>
+      <div class="changelog-entry">
+        <div class="entry-dot"></div>
+        <div class="entry-content">
+          <p><strong>Locked</strong> status turned ON.</p>
+          <span class="entry-meta">by Bob at 09:10</span>
+        </div>
+      </div>
+    </div>
+    <div class="changelog-date-group">
+      <h3 class="date-heading">May 18, 2025</h3>
+      <div class="changelog-entry">
+        <div class="entry-dot"></div>
+        <div class="entry-content">
+          <p>Task <strong>“New Login Flow”</strong> created.</p>
+          <span class="entry-meta">by Alice at 17:45</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="editor.js"></script>
+</body>
+
+</html>
