@@ -22,31 +22,13 @@ video {
     display: block;
 }
 
-/* 2. Timeline layout adjustments for mobile */
+/* 2. Timeline layout adjustments for mobile ????????????????????*/
 .timeline-mobile .timeline {
     max-width: 100%;
     /* allow timeline to span full width */
     position: relative;
 }
 
-.timeline-mobile .timeline .container {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    background: #ffffff;
-    border-radius: 14px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-    box-sizing: border-box;
-}
-
-
-/* 3. Typography tweaks for mobile */
-.timeline-mobile .timeline .content {
-    font-size: 1rem;
-    line-height: 1.6;
-    /* If the desktop version uses very large headings, you could downscale them here, e.g.: 
-     font-size: 1.2rem for h2, etc., to fit smaller screen */
-}
 
 /* Ensure timeline headings or dates wrap nicely on small screens */
 .timeline-mobile .timeline h2,
@@ -105,15 +87,6 @@ video {
     text-transform: uppercase;
 }
 
-.timeline-mobile .timeline-date {
-    font-size: 11px;
-    color: #555;
-    float: left;
-    width: 20%;
-    text-align: left;
-    padding-right: 0.5rem;
-    box-sizing: border-box;
-}
 
 /* Fully disable timeline spine and markers on mobile */
 .timeline-mobile .timeline::after,
@@ -132,15 +105,15 @@ video {
     visibility: hidden !important;
 }
 
-
-.timeline-mobile h1 {
+/* Dark theme adjustments */
+.timeline-mobile.dark-theme h1 {
     font-size: 1.1rem;
     /* Down from 2rem */
     text-align: center;
     margin: 5px 0;
 }
 
-.timeline-mobile h2 {
+.timeline-mobile.dark-theme h2 {
     font-size: 0.9rem;
     /* Down from 1.5rem */
     margin-top: 0;
@@ -148,15 +121,64 @@ video {
     text-align: center;
 }
 
-.timeline-mobile .entry-title {
+.timeline-mobile.dark-theme .entry-title {
     font-size: 0.75rem;
     font-weight: 600;
 }
 
-.timeline-mobile .entry-description {
+.timeline-mobile.dark-theme .entry-description {
     font-size: 0.65rem;
     line-height: 1.4;
 
+}
+
+.timeline-mobile.dark-theme .timeline-date {
+    white-space: normal;
+    font-size: 11px;
+    color: #555;
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+/* Light theme adjustments */
+.timeline-mobile.light-theme h1 {
+    font-size: 1.1rem;
+    /* Down from 2rem */
+    text-align: center;
+    margin: 5px 0;
+}
+
+.timeline-mobile.light-theme h2 {
+    font-size: 0.9rem;
+    /* Down from 1.5rem */
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.timeline-mobile.light-theme .entry-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.timeline-mobile.light-theme .entry-description {
+    font-size: 0.65rem;
+    line-height: 1.4;
+
+}
+
+.timeline-mobile.light-theme .timeline-date {
+    white-space: normal;
+    font-size: 11px;
+    color: #555;
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
 }
 
 .timeline-mobile button,
