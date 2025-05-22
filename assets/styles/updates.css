@@ -141,7 +141,12 @@ body.dark-theme #theme-toggle {
 
 .entry-header {
   margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/*copied*/
 
 .entry-tag {
   display: inline-block;

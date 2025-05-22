@@ -90,13 +90,13 @@ const allTasks = result.flatMap(group => {
     }));
 });
 
-// Sort by actual date (newest to oldest)
-allTasks.sort((a, b) => b._dateObj - a._dateObj);
+// Sort for ID assignment (oldest to newest)
+allTasks.sort((a, b) => a._dateObj - b._dateObj);
 
-// Clean up temporary fields
-allTasks.forEach(task => delete task._dateObj);
+// Determine starting ID from previous tasks
+let lastId = previousTasks.reduce((max, t) => Math.max(max, t.id || 0), 0);
+const assignedIds = new Map();
 
-// Merge/update logic
 const updatedTasks = allTasks.map(newTask => {
     const match = previousTasks.find(prev =>
         prev.title === newTask.title &&
@@ -106,28 +106,27 @@ const updatedTasks = allTasks.map(newTask => {
 
     if (match) {
         newTask.id = match.id;
-        newTask.locked = match.locked; // Preserve locked field even if false
-
+        newTask.locked = match.locked;
         if (match.locked) {
             newTask.done = match.done;
             newTask.tag = match.tag;
-        } else if (newTask.done !== match.done || newTask.tag !== match.tag) {
-            console.log(`🟡 Updated: ID ${match.id} - ${newTask.title}`);
         }
     } else {
+        const key = `${newTask.title}__${newTask.date}__${newTask.category}`;
+        if (!assignedIds.has(key)) {
+            lastId += 1;
+            assignedIds.set(key, lastId);
+            console.log(`🆕 New: ID ${lastId} - ${newTask.title}`);
+        }
+        newTask.id = assignedIds.get(key);
         newTask.locked = false;
     }
+
     return newTask;
 });
 
-let lastId = previousTasks.reduce((max, t) => Math.max(max, t.id || 0), 0);
-updatedTasks.forEach(task => {
-    if (!task.id) {
-        lastId += 1;
-        task.id = lastId;
-        console.log(`🆕 New: ID ${task.id} - ${task.title}`);
-    }
-});
+// Clean up temporary fields
+allTasks.forEach(task => delete task._dateObj);
 
 // Write result
 fs.writeFileSync(outputPath, JSON.stringify(updatedTasks, null, 2), 'utf8');

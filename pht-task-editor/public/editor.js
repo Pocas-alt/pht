@@ -89,6 +89,7 @@ async function saveJSON() {
   try {
     const payload = { tasks, changelog };
     console.log("🔁 Saving payload:", payload);
+    console.log("🧾 Payload size (KB):", new Blob([JSON.stringify(payload)]).size / 1024);
 
     const res = await fetch('/save-data', {
       method: 'POST',
@@ -96,8 +97,14 @@ async function saveJSON() {
       body: JSON.stringify(payload, null, 2)
     });
 
-    const result = await res.json();
-    alert(result.message || 'Saved');
+    const text = await res.text();
+    try {
+      const result = JSON.parse(text);
+      alert(result.message || 'Saved');
+    } catch (e) {
+      console.error('❌ Server did not return valid JSON:', text);
+      alert('Server error. See console.');
+    }
   } catch (err) {
     alert('Failed to save');
     console.error(err);

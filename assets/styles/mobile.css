@@ -9,11 +9,6 @@ html {
     /* Use smooth scrolling for better UX on anchor links (if any) */
 }
 
-body {
-    font-size: 14px;
-    line-height: 1.5;
-}
-
 /* Ensure images and videos scale down to fit smaller screens */
 img,
 video {
@@ -27,8 +22,17 @@ video {
     max-width: 100%;
     /* allow timeline to span full width */
     position: relative;
+
+    margin: 10px;
+    margin-top: -30px;
 }
 
+.page-wrapper {
+    max-width: 400px;
+    height: 100%;
+    margin: 10px;
+
+}
 
 /* Ensure timeline headings or dates wrap nicely on small screens */
 .timeline-mobile .timeline h2,
@@ -110,7 +114,7 @@ video {
     font-size: 1.1rem;
     /* Down from 2rem */
     text-align: center;
-    margin: 5px 0;
+    margin: 0;
 }
 
 .timeline-mobile.dark-theme h2 {
@@ -137,9 +141,8 @@ video {
     font-size: 11px;
     color: #555;
     float: left;
-    width: 20%;
-    text-align: left;
-    padding-right: 0.5rem;
+    width: 40px;
+    text-align: center;
     box-sizing: border-box;
 }
 
@@ -148,7 +151,7 @@ video {
     font-size: 1.1rem;
     /* Down from 2rem */
     text-align: center;
-    margin: 5px 0;
+    margin: 0;
 }
 
 .timeline-mobile.light-theme h2 {
@@ -173,12 +176,12 @@ video {
 .timeline-mobile.light-theme .timeline-date {
     white-space: normal;
     font-size: 11px;
-    color: #555;
+    color: hsl(244, 77%, 17%);
     float: left;
-    width: 20%;
-    text-align: left;
-    padding-right: 0.5rem;
+    width: 40px;
+    text-align: center;
     box-sizing: border-box;
+
 }
 
 .timeline-mobile button,
@@ -193,6 +196,7 @@ video {
     gap: 1px;
     position: relative;
     margin-bottom: 1px;
+    margin-left: 30px;
 }
 
 

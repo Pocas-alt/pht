@@ -16,6 +16,7 @@ const JSON_FILE = path.join(__dirname, '..', 'data', 'structured-output.json');
 const CHANGELOG_FILE = path.join(__dirname, '..', 'data', 'changelog.json');
 
 app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use(express.static(path.join(__dirname, '..', 'data')));
 
 // Upload endpoint
 app.post('/upload-test', upload.single('file'), (req, res) => {
@@ -57,7 +58,7 @@ app.get('/load-data', (req, res) => {
 });
 
 // Accept new data and overwrite structured-output.json and changelog.json
-app.post('/save-data', express.json(), (req, res) => {
+app.post('/save-data', express.json({ limit: '10mb' }), (req, res) => {
     console.log('🔄 Incoming save-data payload:', JSON.stringify(req.body, null, 2));
     try {
         if (Array.isArray(req.body.tasks)) {
@@ -85,3 +86,4 @@ app.get('/load-changelog', (req, res) => {
 app.listen(PORT, () => {
     console.log(`✅ Task Editor running at http://localhost:${PORT}`);
 });
+

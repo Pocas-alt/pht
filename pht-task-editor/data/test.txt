@@ -373,3 +373,4 @@ Sign
 - [ ] Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. (Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240)
       
 - [ ] Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ty. asmens kodas, gyvenamoji vieta ir pan. atsirastų prie paciento.
+

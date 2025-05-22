@@ -17,13 +17,14 @@ function getMonthLabel(dateStr) {
 // Group by month
 const grouped = {};
 for (const item of changelog) {
+    if (!item.title || !item.description) continue; // Skip entries without title or description
     const month = item.date.slice(0, 7); // e.g. "2025-05"
     if (!grouped[month]) grouped[month] = [];
     grouped[month].push(item);
 }
 
 // Sort months descending
-const sortedMonths = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
+const sortedMonths = Object.keys(grouped).sort((a, b) => new Date(b) - new Date(a));
 
 let html = `<div class="timeline">\n`;
 
@@ -31,7 +32,7 @@ for (const month of sortedMonths) {
     const monthLabel = getMonthLabel(month);
     html += `  <div class="timeline-month">\n    <h2>${monthLabel}</h2>\n  </div>\n`;
 
-    const entries = grouped[month].sort((a, b) => b.date.localeCompare(a.date));
+    const entries = grouped[month].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     for (const item of entries) {
         html += `  <div class="timeline-item">\n`;
@@ -39,6 +40,7 @@ for (const month of sortedMonths) {
         html += `    <section class="changelog-entry ${item.tag.toLowerCase()}">\n`;
         html += `      <div class="entry-header">\n`;
         html += `        <span class="entry-tag ${item.tag.toLowerCase()}">${item.tag}</span>\n`;
+        html += `        <span class="entry-id">#${item.id}</span>\n`;
         html += `      </div>\n`;
         html += `      <h3 class="entry-title">${item.title}</h3>\n`;
         html += `      <p class="entry-description">${item.description}</p>\n`;
@@ -49,5 +51,6 @@ for (const month of sortedMonths) {
 
 html += `</div>\n`;
 
+// FIX: Write to timeline.html inside data/ instead of overwriting updates.html
 fs.writeFileSync(path.join(__dirname, 'timeline.html'), html, 'utf-8');
 console.log("✅ Timeline written to data/timeline.html");
