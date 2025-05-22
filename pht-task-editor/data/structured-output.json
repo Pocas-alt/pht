@@ -2,26 +2,236 @@
   {
     "done": false,
     "tag": "future",
-    "title": "klientas --> informacija - nėra pridėti nauja (sandbox)",
+    "title": "Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. (Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240)",
     "description": "",
-    "category": "Dental paciento tabai",
-    "date": "2025-05-16",
-    "id": 1,
-    "locked": false
+    "category": "Sign",
+    "date": "2025-05-22",
+    "locked": false,
+    "id": 118
   },
   {
     "done": false,
     "tag": "future",
-    "title": "klientas --> informacija - nėra ištrinti (sandbox)",
+    "title": "Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ty. asmens kodas, gyvenamoji vieta ir pan. atsirastų prie paciento.",
     "description": "",
-    "category": "Dental paciento tabai",
-    "date": "2025-05-16",
-    "id": 2,
-    "locked": false
+    "category": "Sign",
+    "date": "2025-05-22",
+    "locked": false,
+    "id": 119
   },
   {
     "done": false,
     "tag": "future",
+    "title": "Klientų tipai --> iš eik į dental neatkeliauja informacija ty. neprisideda naujos pozicijos, nepasikeičia spalvos ir pan.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 120
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https",
+    "description": "//pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 121
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "avansiniai per conto mobile. proble,ma kad issiuntus mokejima pakeicia atvykimo statusa. turetu keisti tik apmokejimo.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 122
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Kuriant Nauja vizita butu galima sukurti nauja priminimą kalendoriuje.",
+    "description": "",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 123
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Kalendoriuje -> vizitai->kliento Duomenys -> išhardcodinti Kliento tipai",
+    "description": "",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 124
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Klientą atsidarius prie datos yra vizito pradžios laikas ,bet nėra nurodyta vizito trukmė",
+    "description": "",
+    "category": "",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 125
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "romex anotaciju dydis.",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 126
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https",
+    "description": "//pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 127
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "klientu tipai",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 128
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "kur neleidzia istrinti gydytoju.",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 129
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "imti sukurimo laika. kas ta vizita is tikro kada sukure.nes dabar rodo data dabar, o ne ta ka reikia.",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 130
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "anketu siuntimas sms/email is anksto.kiek kainuos? reiktu pasidaryti. pagalvoti.",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 131
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "pirminis diagnoziu aprasymas trumpas su galimybe uzcekinti. multi. uztenka lenteles. galimybe cekams.",
+    "description": "",
+    "category": "reikia skubiai",
+    "date": "2025-05-21",
+    "locked": false,
+    "id": 132
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Žmogiškieji resursai --> Romexis Romexio lange išdidina anotacijas (pvz. Romualdas Balčiūnaitis)",
+    "description": "",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 133
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Vizito žymėjimas",
+    "description": "nr.7 turi žymėti ar turime pasirašytą naują sutartį (kaip eik sistemoje buvo raudonas brukšninis pabraukimas po vizitu. Jeigu pasirašyta žymėjimo nereikia).",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 134
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Pridedu ir kitus žymėjimus pasitikrinam, kad jie sutaptų.",
+    "description": "",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 135
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Sukurti \"Neregistruoti\" statusą, kurį galima paskirti pacientui. Su šiuo statusu paciento vizito neleidžia užregistruoti ir išmeta notification \"Registruoti tik su direktoriaus patvirtinimu\".",
+    "description": "",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 136
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Teisės",
+    "description": "Suteikti šį statusą, jį nuimti ar užregistruoti vizitą/ jį redaguoti gali tik \"valdzia\" - Koks laiko tarpas uždėtas ant pin kodo? Po kiek laiko neaktyvumo prašo įvesti pin? 30min - Ar galima pamažinti kėdžių tulpelio plotį? Patogiausia būtų jeigu galėtume laisvai prasitempti jas į plotį jeigu reikia, bet mažai naudojamas kėdes (R, X1, S1, S2) galėtų būti plonesnės. (stulpeliu ploti ne istrinti prideti taip) - Ar galima pastabų layer'yje matyti vizitus?",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 137
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "Vizitų dubliavimas kalendoriaus vaizde. Pavyksta iššaukti kelis kartus nuspaudus layerio ikona. Kiek kartų nuspaudi - tiek atkartoja.",
+    "description": "",
+    "category": "Romexis",
+    "date": "2025-05-20",
+    "locked": false,
+    "id": 138
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "klientas --> informacija - nėra pridėti nauja",
+    "description": "",
+    "category": "Dental paciento tabai",
+    "date": "2025-05-16",
+    "locked": false,
+    "id": 139
+  },
+  {
+    "done": false,
+    "tag": "future",
+    "title": "klientas --> informacija - nėra ištrinti",
+    "description": "",
+    "category": "Dental paciento tabai",
+    "date": "2025-05-16",
+    "locked": false,
+    "id": 140
+  },
+  {
+    "done": true,
+    "tag": "update",
     "title": "Nauja pastaba paspaudus ne naujame puslapyje atidarineti, o tame paciame ir pridėti grizimo mygtuka nukreipianti atgal i pac vizitus",
     "description": "",
     "category": "Dental paciento tabai",
@@ -30,34 +240,34 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
-    "title": "Bendras ateities vizitai (sandbox)",
+    "done": true,
+    "tag": "update",
+    "title": "Bendras ateities vizitai",
     "description": "",
     "category": "Dental meniu",
     "date": "2025-05-16",
-    "id": 4,
-    "locked": false
+    "locked": false,
+    "id": 141
+  },
+  {
+    "done": true,
+    "tag": "update",
+    "title": "SMS siuntimas gydytojam ir pac.",
+    "description": "",
+    "category": "Dental meniu",
+    "date": "2025-05-16",
+    "locked": false,
+    "id": 142
   },
   {
     "done": false,
     "tag": "future",
-    "title": "SMS siuntimas gydytojam ir pac. (sandbox)",
-    "description": "",
-    "category": "Dental meniu",
-    "date": "2025-05-16",
-    "id": 5,
-    "locked": false
-  },
-  {
-    "done": false,
-    "tag": "future",
-    "title": "juodame issokanciame fone vietoje pastabos vaizduoti SMS atsakymą",
+    "title": "juodame issokanciame fone vietoje pastabos vaizduoti SMS atsakymą (vietoje patabos)",
     "description": "",
     "category": "Kalendorius",
     "date": "2025-05-16",
-    "id": 6,
-    "locked": false
+    "locked": false,
+    "id": 143
   },
   {
     "done": false,
@@ -72,12 +282,12 @@
   {
     "done": false,
     "tag": "future",
-    "title": "pasirasimas vel prizoomina",
+    "title": "pasirasimas vel prizoomina (Matas viska perziureti)",
     "description": "",
     "category": "Sign",
     "date": "2025-05-16",
-    "id": 8,
-    "locked": false
+    "locked": false,
+    "id": 144
   },
   {
     "done": false,
@@ -92,12 +302,12 @@
   {
     "done": false,
     "tag": "future",
-    "title": "Kaip patikrinti ar statistika yra teisinga?",
+    "title": "Kaip patikrinti ar statistika yra teisinga? (raw duomenys)",
     "description": "",
     "category": "Statistika",
     "date": "2025-05-16",
-    "id": 10,
-    "locked": false
+    "locked": false,
+    "id": 145
   },
   {
     "done": false,
@@ -150,8 +360,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "SMS siuntimo nėra dental sistemoje (pacientam ir gydytojam)",
     "description": "",
     "category": "Linkai, kuriuo reikia sutvarkyti iki penktadienio",
@@ -330,8 +540,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Neatnaujina kalendoriuje atvaizdavimo, kai pasirašo sutartį/užpildo sveikatos būklės anketą ( čia yra E25) (Pakeisti oranžine spalva į geltona, jeigu gerai pamenu pagal ką statusai keičiasi tai dabar turėtų būti Raudonas - neužpildyta; Geltonas - E025 užregistruota, bet nepasirašyta; Žalia - užpildyta ir pasirašyta()",
     "description": "",
     "category": "Kita:",
@@ -350,8 +560,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Reikia \"Ateities vizitų\" atvaizdavimo, bendram kalendoriaus vaizde kaip buvo eik sistemoj. (Dabar dental matosi ar turi ateity vizitų tik pelyte užėjus ant vizito iššokančiame juodame lange)",
     "description": "",
     "category": "Kita:",
@@ -400,8 +610,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Pasirašyme pridėti Paragrafas name = \"signature\" --> gydytojo parašas. Parašus įkelsiu į https",
     "description": "//pocebutas.amosas.com/dental/doctors_sign (Raimundas)",
     "category": "Kita:",
@@ -430,8 +640,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Informacijos skiltyje neleidžia pridėti naujo dokumento, jeigu jis buvo pridėtas eik sistemoje, negalima jo atsidaryti per dental. Paspaudus ant failo meta 404 klaidą.",
     "description": "",
     "category": "",
@@ -440,8 +650,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Reikia atvaizdavimo prie vizito, kad yra papildoma info (iki šiol būdavo ⓘ ikona)",
     "description": "",
     "category": "",
@@ -450,8 +660,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Eik sistemos kalendoriaus uždarymas (per kiek laiko galima tai padaryti, kol kas tik paslepiam, kad kam nors nulūžus būtų galima pataisyti",
     "description": "",
     "category": "",
@@ -480,43 +690,13 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Eik sistemoje išgaudyti linkus nukreipiančius į eik kalendoriu, pakeisti nuorodomis i dental.",
     "description": "",
     "category": "",
     "date": "2025-05-08",
     "id": 49,
-    "locked": false
-  },
-  {
-    "done": false,
-    "tag": "future",
-    "title": "",
-    "description": "",
-    "category": "",
-    "date": "2025-05-08",
-    "id": 50,
-    "locked": false
-  },
-  {
-    "done": false,
-    "tag": "future",
-    "title": "Paieškoti, kur dar yra silpnųjų vietų.",
-    "description": "",
-    "category": "",
-    "date": "2025-05-08",
-    "id": 51,
-    "locked": false
-  },
-  {
-    "done": false,
-    "tag": "future",
-    "title": "",
-    "description": "",
-    "category": "",
-    "date": "2025-05-08",
-    "id": 50,
     "locked": false
   },
   {
@@ -530,8 +710,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Išjungti seną pasirašymą ir panaikinti mygtuką \"Kliento formos siuntimas SMS'u\"",
     "description": "",
     "category": "",
@@ -550,18 +730,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
-    "title": "Darius klausia kokioje stadijoje jo balso irasai ai",
-    "description": "",
-    "category": "",
-    "date": "2025-05-08",
-    "id": 56,
-    "locked": false
-  },
-  {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "romoex atnaujinti visus pacientus.",
     "description": "",
     "category": "",
@@ -570,8 +740,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "kasa patesttuoti auto loada",
     "description": "",
     "category": "",
@@ -724,10 +894,10 @@
     "tag": "update",
     "title": "Kadangi įvestis keitėsi iš Eik į Dental, reikia taip pat patikrinti ar kopijavimas veiks ty. ar leis kopijuoti tik administratoriaus darbo laiką per dienas, nekopijuojant asistentų ir gydytojų laikų.",
     "description": "",
-    "category": "[]  Kalendorius --> pridėti administratorių +",
+    "category": "[x]  Kalendorius --> pridėti administratorių +",
     "date": "2025-04-18",
-    "id": 73,
-    "locked": false
+    "locked": false,
+    "id": 146
   },
   {
     "done": true,
@@ -800,8 +970,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "update",
     "title": "Naudoti +37063409687",
     "description": "",
     "category": "",
@@ -1020,8 +1190,8 @@
     "locked": false
   },
   {
-    "done": false,
-    "tag": "future",
+    "done": true,
+    "tag": "fix",
     "title": "Dental tikriausiai ne visur sudėti raktai, nes paspaudus ant",
     "description": "skambinančio žmogaus, resursu pasiskirstyme ant sąskaitos nr. ar id prašo prisijungti prie eik sistemos. Jeigu iš eik sistemos pereini į dental tuomet šie linkai veikia tvarkingai (not fix) (reikalingi dideli pakeitimai eik sistemoje)",
     "category": "",
