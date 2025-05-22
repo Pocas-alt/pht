@@ -2,8 +2,8 @@
   {
     "done": false,
     "tag": "future",
-    "title": "Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. (Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240)",
-    "description": "",
+    "title": "Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. ",
+    "description": "(Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240)",
     "category": "Sign",
     "date": "2025-05-22",
     "locked": false,
@@ -12,8 +12,8 @@
   {
     "done": false,
     "tag": "future",
-    "title": "Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ty. asmens kodas, gyvenamoji vieta ir pan. atsirastų prie paciento.",
-    "description": "",
+    "title": "Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ",
+    "description": "ty. asmens kodas, gyvenamoji vieta, elektroninis paštas atsirastų prie paciento.",
     "category": "Sign",
     "date": "2025-05-22",
     "locked": false,
