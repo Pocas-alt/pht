@@ -50,11 +50,18 @@ for (const lineRaw of lines) {
         const done = line.startsWith('- [x]');
         let text = line.slice(6).trim();
 
+        const idMatch = text.match(/\{(\d+)\}$/);
+        const extractedId = idMatch ? parseInt(idMatch[1], 10) : null;
+        if (extractedId) {
+            text = text.replace(/\{(\d+)\}$/, '').trim();
+        }
+
         const tag = inferTag(text, done);
         const [title, ...descParts] = text.split(/[:–—]/);
         const description = descParts.join(':').trim();
 
         currentTasks.push({
+            id: extractedId,
             done,
             tag,
             title: title.trim(),
@@ -98,19 +105,26 @@ let lastId = previousTasks.reduce((max, t) => Math.max(max, t.id || 0), 0);
 const assignedIds = new Map();
 
 const updatedTasks = allTasks.map(newTask => {
-    const match = previousTasks.find(prev =>
-        prev.title === newTask.title &&
-        prev.date === newTask.date &&
-        prev.category === newTask.category
-    );
+    let match;
+
+    if (newTask.id) {
+        match = previousTasks.find(prev => prev.id === newTask.id);
+    }
+
+    if (!match) {
+        match = previousTasks.find(prev =>
+            prev.title === newTask.title &&
+            prev.date === newTask.date &&
+            prev.category === newTask.category
+        );
+    }
 
     if (match) {
-        newTask.id = match.id;
-        newTask.locked = match.locked;
-        if (match.locked) {
-            newTask.done = match.done;
-            newTask.tag = match.tag;
-        }
+        // Only update 'done' field, preserve everything else
+        return {
+            ...match,
+            done: newTask.done
+        };
     } else {
         const key = `${newTask.title}__${newTask.date}__${newTask.category}`;
         if (!assignedIds.has(key)) {
@@ -120,9 +134,8 @@ const updatedTasks = allTasks.map(newTask => {
         }
         newTask.id = assignedIds.get(key);
         newTask.locked = false;
+        return newTask;
     }
-
-    return newTask;
 });
 
 // Clean up temporary fields

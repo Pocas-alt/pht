@@ -45,7 +45,7 @@ body.dark-theme #theme-toggle {
 
 .timeline::before {
   content: "";
-  position: absolute;
+  position: relative;
   top: 50px;
   bottom: 40px;
   left: 50px;
@@ -120,6 +120,7 @@ body.dark-theme #theme-toggle {
 }
 
 .changelog-entry {
+  display: block;
   position: relative;
   background-color: var(--color-bg-surface, #a31414);
   color: var(--color-text-main, #1a1a1a);
@@ -127,6 +128,8 @@ body.dark-theme #theme-toggle {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  max-width: 70%;
+
 }
 
 .changelog-entry:hover {

@@ -330,7 +330,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -350,7 +350,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -360,7 +360,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "improvement",
     "title": "Paciento sms atsakymas \"Taip.\" užskaitytų, kaip \"TAIP\". Dabar jeigu po atsakymo yra \".\" \",\" ar pan. neužskaito.",
     "description": "Paciento sms atsakymas \"Taip.\" užskaitytų, kaip \"TAIP\". Dabar jeigu po atsakymo yra \".\" \",\" ar pan. neužskaito.",
@@ -440,7 +440,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Estetiniai darbai",
     "description": "Netolygus backgroundas (juoda juosta) per chrome browserį. Perkelti pac. pasirašymą žemyn ir jį padidinti. Prie parašo pridėti vardą pavardę.",
@@ -450,7 +450,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -460,7 +460,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -490,7 +490,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -550,7 +550,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -560,7 +560,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -720,7 +720,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -730,7 +730,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -740,7 +740,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -750,7 +750,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -760,7 +760,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -770,7 +770,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -780,7 +780,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -790,7 +790,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -800,7 +800,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -810,7 +810,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "update",
     "title": "",
     "description": "",
@@ -860,7 +860,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Neaktyvių vartotojų panaikinimas",
     "description": "Naujame pasirašyme ima neaktyvius vartotojus pvz. Dovilė ( Ima iš Dental -> Pasirašymas -> Parašai ( reikia pridėti ištrinimą )",
@@ -970,7 +970,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Ateities vizitai prie vizito pastabos",
     "description": "Dental --> vizitai (greitas) --> paslaugos pastabos (nėra ateities vizitų). Juos pridėti ir į atskira stulpelį \"sveikatos istorijos\" tabe",
@@ -1150,7 +1150,7 @@
     "locked": false
   },
   {
-    "done": true,
+    "done": false,
     "tag": "update",
     "title": "Kėdžių redagavimas (darbai neatliekami - tik info)",
     "description": " - Ar galima pamažinti kėdžių tulpelio plotį? - NE. Bet galima pridėti arba ištrinti naujus stulpelius.",
@@ -1170,7 +1170,7 @@
     "locked": false
   },
   {
-    "done": true,
+    "done": false,
     "tag": "fix",
     "title": "PIN kodo trukmė",
     "description": "Pin kodas prašomas, kas 15 min. nebereaguoja į puslapio aktyvumą. (Šiuo metu tiesiog padidintas laikas prašyti Pin kodo kas 30 min).",
@@ -1190,7 +1190,7 @@
     "locked": true
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Klientų tipai ",
     "description": "Iš eik į dental neatkeliauja kliento tipo informacija ty. neprisideda naujos pozicijos, nepasikeičia spalvos ir pan.",
@@ -1200,7 +1200,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Ateities vizitai sveikatos istorijoje",
     "description": "(Ateities vizita rodyti) https//pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804",
@@ -1230,7 +1230,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "",
     "description": "",
@@ -1240,7 +1240,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Vizito trukmė",
     "description": "Klientą atsidarius prie datos yra vizito pradžios laikas, bet nėra nurodyta vizito trukmė",
@@ -1260,7 +1260,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "",
     "description": "",
@@ -1270,7 +1270,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "",
     "description": "",
@@ -1280,7 +1280,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "",
     "description": "",
@@ -1290,7 +1290,7 @@
     "locked": false
   },
   {
-    "done": false,
+    "done": true,
     "tag": "future",
     "title": "Vizito sukūrimo informacija",
     "description": "Imti sukūrimo laiką. Kas tą vizitą iš tikro kada sukurė. Nes dabar rodo data dabar, o ne tą ką reikia.",
@@ -1337,6 +1337,46 @@
     "category": "Sign",
     "date": "2025-05-22",
     "id": 134,
+    "locked": false
+  },
+  {
+    "id": 135,
+    "done": false,
+    "tag": "future",
+    "title": "Po refreshinimo likti toje pačioje dienoje. Dabar peršoka į šiandien dieną.",
+    "description": "",
+    "category": "Kalendorius",
+    "date": "2025-05-22",
+    "locked": false
+  },
+  {
+    "id": 136,
+    "done": false,
+    "tag": "future",
+    "title": "Perkelta iš 2025-04-14 Paciento sms atsakymas \"Taip.\" užskaitytų, kaip \"TAIP\". Dabar jeigu po atsakymo yra \".\" \",\" ar pan. neužskaito.",
+    "description": "",
+    "category": "SMS",
+    "date": "2025-05-22",
+    "locked": false
+  },
+  {
+    "id": 137,
+    "done": false,
+    "tag": "future",
+    "title": "Monikai irgi neleidžia perklausyti skambučių. Jeigu teisės įhardcodintos pakeisti į (valdžia, admin)",
+    "description": "",
+    "category": "Skambučiai",
+    "date": "2025-05-26",
+    "locked": false
+  },
+  {
+    "id": 138,
+    "done": false,
+    "tag": "future",
+    "title": "\"Vizitai\" 10 metų dabar maksimalus. Reikia, kad leistų pažiūrėti visus.",
+    "description": "",
+    "category": "Kalendorius",
+    "date": "2025-05-26",
     "locked": false
   }
 ]

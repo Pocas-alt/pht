@@ -14,9 +14,19 @@ function getMonthLabel(dateStr) {
     });
 }
 
+// Deduplicate changelog items by ID
+const seen = new Set();
+const uniqueChangelog = [];
+
+for (const item of changelog) {
+    if (!item.id || seen.has(item.id)) continue;
+    seen.add(item.id);
+    uniqueChangelog.push(item);
+}
+
 // Group by month
 const grouped = {};
-for (const item of changelog) {
+for (const item of uniqueChangelog) {
     if (!item.title || !item.description) continue; // Skip entries without title or description
     const month = item.date.slice(0, 7); // e.g. "2025-05"
     if (!grouped[month]) grouped[month] = [];
@@ -26,7 +36,7 @@ for (const item of changelog) {
 // Sort months descending
 const sortedMonths = Object.keys(grouped).sort((a, b) => new Date(b) - new Date(a));
 
-let html = `<div class="timeline">\n`;
+let html = '';
 
 for (const month of sortedMonths) {
     const monthLabel = getMonthLabel(month);
@@ -49,8 +59,12 @@ for (const month of sortedMonths) {
     }
 }
 
-html += `</div>\n`;
 
-// FIX: Write to timeline.html inside data/ instead of overwriting updates.html
-fs.writeFileSync(path.join(__dirname, 'timeline.html'), html, 'utf-8');
-console.log("✅ Timeline written to data/timeline.html");
+// FIX: Replace only the timeline block in updates.html
+const fullHtml = fs.readFileSync(path.join(__dirname, '..', 'updates.html'), 'utf-8');
+const updatedHtml = fullHtml.replace(
+    /<!-- TIMELINE_START -->[\s\S]*?<!-- TIMELINE_END -->/,
+    `<!-- TIMELINE_START -->\n${html.trim()}\n<!-- TIMELINE_END -->`
+);
+fs.writeFileSync(path.join(__dirname, '..', 'updates.html'), updatedHtml, 'utf-8');
+console.log("✅ Timeline block replaced in updates.html");

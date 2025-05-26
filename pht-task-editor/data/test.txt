@@ -1,20 +1,20 @@
 25/02/01
 
-- [x] Gydytojų ataskaitoje "- lab" laboratorijos dalis nesutampa su resusų pasiskirstyme nurodyta dalimi. (Resursų pasiskirstyme rodo teisingai)  (fixed)
+- [x] Gydytojų ataskaitoje "- lab" laboratorijos dalis nesutampa su resusų pasiskirstyme nurodyta dalimi. (Resursų pasiskirstyme rodo teisingai)  (fixed) {1}
 
 
 
-- [x] Zmogiskieji resursai —> sistemos vartotojai bandant pasirinkti Search ‘tipa’ ismeta klaida (fixed)
+- [x] Zmogiskieji resursai —> sistemos vartotojai bandant pasirinkti Search ‘tipa’ ismeta klaida (fixed) {2}
 
 
-- [x] Gal butu galima paslepti Komponentai—> Paslaugos tuos skaicius prie pavadinimo “#30.00” ir pan? (fixed)
+- [x] Gal butu galima paslepti Komponentai—> Paslaugos tuos skaicius prie pavadinimo “#30.00” ir pan? (fixed) {3}
       
-- [x] Menu—> Darbo apskaita man nebeduoda darbuotoju isdirbto menesio ataskaitos. Prisegu pavyzdi koki seniau is cia parsisiusdavau (fixed) 
+- [x] Menu—> Darbo apskaita man nebeduoda darbuotoju isdirbto menesio ataskaitos. Prisegu pavyzdi koki seniau is cia parsisiusdavau (fixed) {4}
       MATAI pakeista is admin i valdzia ar reikia daugiau kas gali siustis (tik valdžia)
 
 
 
-- [x] Admin bandė išsiųsti panoraminę nuotrauką per sistemą ir jai išmetė klaidą. Pabandėm ištrinti sąsają su romexiu (trinti ir atnaujinti), bet sistema iš romexio nepaima nuotraukų.  (email fixed)
+- [x] Admin bandė išsiųsti panoraminę nuotrauką per sistemą ir jai išmetė klaidą. Pabandėm ištrinti sąsają su romexiu (trinti ir atnaujinti), bet sistema iš romexio nepaima nuotraukų.  (email fixed) {5}
 
 
 
@@ -22,11 +22,11 @@
 
 25/02/04
 
-- [x] Naujo pasirašymo integravimas
-- [x] Vizitų ir priminimų slepimo funkcija - valdzia, admin
-- [x] Priminimų redagavimas - valdzia, admin, gydytojas, asistentas
-- [x] "Vizitai greitas" keliems klientams neužkrauna indormacijos (pvz. #15374; #4040; #15386 ir kt.)
-- [x] Esveikatos pasirasymas dental sistemoje neuzsikrauna. Panasu, kad linkas neteisingas jo galas - /sign/undefined
+- [x] Naujo pasirašymo integravimas {6}
+- [x] Vizitų ir priminimų slepimo funkcija - valdzia, admin {7}
+- [x] Priminimų redagavimas - valdzia, admin, gydytojas, asistentas {8}
+- [x] "Vizitai greitas" keliems klientams neužkrauna indormacijos (pvz. #15374; #4040; #15386 ir kt.) {9}
+- [x] Esveikatos pasirasymas dental sistemoje neuzsikrauna. Panasu, kad linkas neteisingas jo galas - /sign/undefined {10}
 
 MATAI Reikia pasirašymo grupu su dokumentu pavadinimais kokie reikalingi (nukeliam ateičiai)
 
@@ -53,183 +53,183 @@ Kas gali pasirasyti? Matai patikslink (viskas tvarkoje, gali visi išskyrus buha
 
 25/02/05
 
-- [x] Žmogiškieji resursai -> Atostogų prašymai - neleidžia atmesti atostogų prašymo (fix)
+- [x] Žmogiškieji resursai -> Atostogų prašymai - neleidžia atmesti atostogų prašymo (fix) {11}
 
 
 25/02/06
 
-- [x] Panoraminių nuotraukų siuntimas per Romex vis dar neveikia. Klaidos jau nemeta, bet pacientai vis tiek negauna laiško
-- [x] Priminimų redagavimas dar neveikia
+- [x] Panoraminių nuotraukų siuntimas per Romex vis dar neveikia. Klaidos jau nemeta, bet pacientai vis tiek negauna laiško {12}
+- [x] Priminimų redagavimas dar neveikia {13}
       
 
 25/02/07
 
-- [x] Sąmatos -> sena sąmatą redaguojant palikti pazicijas su kainomis, kurios jau buvo išrašytos, bet pridedant naujas paslaugas, kainos imamos iš dabartinio kainyno. (Dabar nors kaina yra pakitusi gydytojai per sąmatas išrašo pozicijas su senomis kainomis to nežinodami)
+- [x] Sąmatos -> sena sąmatą redaguojant palikti pazicijas su kainomis, kurios jau buvo išrašytos, bet pridedant naujas paslaugas, kainos imamos iš dabartinio kainyno. (Dabar nors kaina yra pakitusi gydytojai per sąmatas išrašo pozicijas su senomis kainomis to nežinodami) {14}
       
       
 
 25/02/11
 
-- [x] Atostogų prašymų neleidžia atmesti
-- [x] Dental tikriausiai ne visur sudėti raktai, nes paspaudus ant: skambinančio žmogaus, resursu pasiskirstyme ant sąskaitos nr. ar id prašo prisijungti prie eik sistemos. Jeigu iš eik sistemos pereini į dental tuomet šie linkai veikia tvarkingai (not fix) (reikalingi dideli pakeitimai eik sistemoje)
+- [x] Atostogų prašymų neleidžia atmesti {15}
+- [x] Dental tikriausiai ne visur sudėti raktai, nes paspaudus ant: skambinančio žmogaus, resursu pasiskirstyme ant sąskaitos nr. ar id prašo prisijungti prie eik sistemos. Jeigu iš eik sistemos pereini į dental tuomet šie linkai veikia tvarkingai (not fix) (reikalingi dideli pakeitimai eik sistemoje) {16}
       
 
 25/02/12
 
-- [x] Ateities vizitai ir pastabos neatvaizduojamos prie vizito
+- [x] Ateities vizitai ir pastabos neatvaizduojamos prie vizito {17}
 
 
-- [x] BUG'as sukurtame vizite nerodo informacijos, kas ir kada jį sukūrė. (Monika sako, kad ne pirmą kartą jau taip) (fix)
+- [x] BUG'as sukurtame vizite nerodo informacijos, kas ir kada jį sukūrė. (Monika sako, kad ne pirmą kartą jau taip) (fix) {18}
 
 
-- [x] Dental sistemoje duoda "trinti" vizitus su sąskaita. (Papildžiau Permishinai linkuose) (fix)
-- [x] Dental vaizduoja vizitus prie paciento, kurių nėra kalendoriuje (fix)
+- [x] Dental sistemoje duoda "trinti" vizitus su sąskaita. (Papildžiau Permishinai linkuose) (fix) {19}
+- [x] Dental vaizduoja vizitus prie paciento, kurių nėra kalendoriuje (fix) {20}
       
       
-- [x] Prie kliento "SMS" skiltyje po default rikiuoja naujausius irasus i apacia ir nepaima issiuntimo datos (fix)
+- [x] Prie kliento "SMS" skiltyje po default rikiuoja naujausius irasus i apacia ir nepaima issiuntimo datos (fix) {21}
       
 
 25/02/19
 
-- [x] Užregistravus naują pacientą dental sistemoje, nepaima naujo sutarties nr.
+- [x] Užregistravus naują pacientą dental sistemoje, nepaima naujo sutarties nr. {22}
       
 
 25/03/05
 
-- [ ] Rikiavimas resursų pasiskirstyme ne visada veikia
+- [ ] Rikiavimas resursų pasiskirstyme ne visada veikia {23}
 
-- [ ] 25/05/08 dar nepataisyta (bent dienos darbas ar darom?)
+- [ ] 25/05/08 dar nepataisyta (bent dienos darbas ar darom?) {24}
 
 
 25/03/20
 
-- [x] Resursų pasiskirstyme neišfiltruoja paslaugų senesnių nei 2024/09
+- [x] Resursų pasiskirstyme neišfiltruoja paslaugų senesnių nei 2024/09 {25}
 
 
 
 25/03/24
 
-- [x] Vizito info i desne puse (būtų galima vietoj kiento vardo, galbūt ir gydytojo, įrašyti pastabą)
+- [x] Vizito info i desne puse (būtų galima vietoj kiento vardo, galbūt ir gydytojo, įrašyti pastabą) {26}
       
       
-- [ ] 
+- [ ] {27}
 
 
 25/04/07 (Pirmiausiai) Ar viskas?
 
-- [x] Mokėjimo lapelių atvaizdavimas plancetese (padaryti taip pat kaip samatose tik nereikalingas pasirašymas) Kokios galimybes?
-- [x] Romexio nuotraukos ne visada sukrenta (pvz: id 11662; 12113; 12254; 12830)
-- [x] Kasos reikalai
+- [x] Mokėjimo lapelių atvaizdavimas plancetese (padaryti taip pat kaip samatose tik nereikalingas pasirašymas) Kokios galimybes? {28}
+- [x] Romexio nuotraukos ne visada sukrenta (pvz: id 11662; 12113; 12254; 12830) {29}
+- [x] Kasos reikalai {30}
 
 25/04/08
 
-- [x] Kreditinės SF neleidžia paskirstyti resursuose (įvesti minusinę sumą, gydytojui, sąnaudoms ir pan.)
+- [x] Kreditinės SF neleidžia paskirstyti resursuose (įvesti minusinę sumą, gydytojui, sąnaudoms ir pan.) {31}
       
-- [x] Asistentas resursų pasiskirstyme nepriskiriamas 
+- [x] Asistentas resursų pasiskirstyme nepriskiriamas {32}
 
 
-- [x] Pac. su užsenietišku nr. gauna iš mūsų žinutes, bet mes negauname iš jo.
-- [x] nematau, kad numeris 4792940735 butu kada atsiuntes sms, niekada.
+- [x] Pac. su užsenietišku nr. gauna iš mūsų žinutes, bet mes negauname iš jo. {33}
+- [x] nematau, kad numeris 4792940735 butu kada atsiuntes sms, niekada. {34}
 
 
 25/04/11
 
-- [x] Ištrinta sąskaita nepradingsta (sudėjau į visas dalis 0, kad skaičiavimo neiškreiptų). Ištrynus sąskaitą ar yra laiko tarpas per, kurį turi dingti iš resursų pasiskirstymo ar čia tiesiog bug'as?
-- [x] kurioj vietoj tu trini saskaitas?
+- [x] Ištrinta sąskaita nepradingsta (sudėjau į visas dalis 0, kad skaičiavimo neiškreiptų). Ištrynus sąskaitą ar yra laiko tarpas per, kurį turi dingti iš resursų pasiskirstymo ar čia tiesiog bug'as? {35}
+- [x] kurioj vietoj tu trini saskaitas? {36}
 
 
 25/04/14
 
-- [x] Paciento sms atsakymas "Taip." užskaitytų, kaip "TAIP". Dabar jeigu po atsakymo yra "." "," ar pan. neužskaito. 
-- [x] "Vizitą" pratempti per visa laukelį, sako, kad "išlendantis background'as blogina matomumą, pavargsta akys"
+- [x] Paciento sms atsakymas "Taip." užskaitytų, kaip "TAIP". Dabar jeigu po atsakymo yra "." "," ar pan. neužskaito. {37}
+- [x] "Vizitą" pratempti per visa laukelį, sako, kad "išlendantis background'as blogina matomumą, pavargsta akys" {38}
 
 
 
-- [x] Programos generuojamoje SF numeris klinikos nurodytas 86xxxxxx. Pakeisti į Teisingą formatą +3706xxxxx (gal sutvarkyta) (nenurodyta kur ir koks nr) 
-	- [x] Mokėjimo lapelis --> sąsk. PDF
+- [x] Programos generuojamoje SF numeris klinikos nurodytas 86xxxxxx. Pakeisti į Teisingą formatą +3706xxxxx (gal sutvarkyta) (nenurodyta kur ir koks nr) {39}
+	- [x] Mokėjimo lapelis --> sąsk. PDF {40}
 
-	- [x] Sąmatos --> PDF
-	- [x] Klientas --> pasirašytos sąmatos
+	- [x] Sąmatos --> PDF {41}
+	- [x] Klientas --> pasirašytos sąmatos {42}
 
-- [x] Naudoti +37063409687
+- [x] Naudoti +37063409687 {43}
 
 
 
 
 25/04/17
 
-- [x] Sutikrinti mokėjimų ir sąskaitų sumas | TURIU DAR PATS PASITIKRINTI| 
+- [x] Sutikrinti mokėjimų ir sąskaitų sumas | TURIU DAR PATS PASITIKRINTI|  {44}
 
 
 25/04/18
 
-- [x] Dokumentų pasirašyme pataisyti formatą:
-	- [x] Netolygus backgroundas (juoda juosta) Patikrinkite per chrome browseri
-	- [x] Perkelti pac. pasirašymą žemyn ir jį padidinti
-	- [x] Prie parašo pridėti vardą pavardę
+- [x] Dokumentų pasirašyme pataisyti formatą: {45}
+	- [x] Netolygus backgroundas (juoda juosta) Patikrinkite per chrome browseri {46}
+	- [x] Perkelti pac. pasirašymą žemyn ir jį padidinti {47}
+	- [x] Prie parašo pridėti vardą pavardę {48}
 	      
 	      
 
-25/04/28 (Neleidžia antro administratoriaus pridėti)
+25/04/28
 
-- [x] Administratorių darbo laiko koregavimas. Dental sistemoje neleidžia ištrinti/pirdėti/pakeisti administratoriaus meta klaidą "Bloga kėdė".  
-       [x]  Kalendorius --> pridėti administratorių +
+- [x] Administratorių darbo laiko koregavimas. Dental sistemoje neleidžia ištrinti/pirdėti/pakeisti administratoriaus meta klaidą "Bloga kėdė". {49}
+       [x]  Kalendorius --> pridėti administratorių {50}
 
-- [x] Kadangi įvestis keitėsi iš Eik į Dental, reikia taip pat patikrinti ar kopijavimas veiks ty. ar leis kopijuoti tik administratoriaus darbo laiką per dienas, nekopijuojant asistentų ir gydytojų laikų.
+- [x] Kadangi įvestis keitėsi iš Eik į Dental, reikia taip pat patikrinti ar kopijavimas veiks ty. ar leis kopijuoti tik administratoriaus darbo laiką per dienas, nekopijuojant asistentų ir gydytojų laikų.{50}
 
 
 25/05/02
 
-- [x] Testinėje apilinkoje prisijungus su Mato arba Raimundo user'iu (9449 ar 9988 pin kodu), nerodo "sistemos vartotojai" skilties. Turėtų būti teisių problema. Suteikti Matui "Valdžia" teises
+- [x] Testinėje apilinkoje prisijungus su Mato arba Raimundo user'iu (9449 ar 9988 pin kodu), nerodo "sistemos vartotojai" skilties. Turėtų būti teisių problema. Suteikti Matui "Valdžia" teises {51}
 
 
 
-- [x] Iš kairiojo menu atidarius daug tab'u neužkrauna vartotojo informacijos.
+- [x] Iš kairiojo menu atidarius daug tab'u neužkrauna vartotojo informacijos.{52}
       
-- [x] Atsidarius daug langų ir suvedus pin kodą kituose tabuose pradingsta pin užklausa, bet poto "keisti darbuotoją" mygtukas tampa neaktyvus. Tik parefreshinus ismeta pin langą.
-- [x] Kai user'io pilnai neužkrauna galima papspausti "baigti darbą" ir grįti atgal į svetaine nesuvedus prisijungimo duomenų tik pin kodo prašo, bet meta klaidą. Paspaudus atsijungti leidžia likti svetainėje. Arba pradeda neperstojamai refreshintis.
+- [x] Atsidarius daug langų ir suvedus pin kodą kituose tabuose pradingsta pin užklausa, bet poto "keisti darbuotoją" mygtukas tampa neaktyvus. Tik parefreshinus ismeta pin langą. {53}
+- [x] Kai user'io pilnai neužkrauna galima papspausti "baigti darbą" ir grįti atgal į svetaine nesuvedus prisijungimo duomenų tik pin kodo prašo, bet meta klaidą. Paspaudus atsijungti leidžia likti svetainėje. Arba pradeda neperstojamai refreshintis. {54}
 
 
 
 25/05/02
 
-- [x] Pasirašymo paketai ne pagal mano nurodytą tvarka pateikiami plančetėje.
-	- [x] "Paciento sutikimas" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 5. Paciento sutikimas
-	- [x] "Paciento atstovo sutikimas" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 6. Paciento atstovo sutikimas
+- [x] Pasirašymo paketai ne pagal mano nurodytą tvarka pateikiami plančetėje. {55}
+	- [x] "Paciento sutikimas" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 5. Paciento sutikimas {56} 
+	- [x] "Paciento atstovo sutikimas" = 3. Sutikimas odontologinėms procedūroms + 4. Odontologinių procedūrų sąrašas + 6. Paciento atstovo sutikimas {57}
 	      
 
 
 25/05/05
 
-- [x] Dental --> Finansai --> Resursu pasiskirstymas (N). Neužkrauna lentelės, meta klaidą.
+- [x] Dental --> Finansai --> Resursu pasiskirstymas (N). Neužkrauna lentelės, meta klaidą. {58}
       
       
 
 25/05/06
 
-- [x] Prideti notification'a kai kuriant mokejimo lapeli pasirankama daugiau nei vienas gydytojas (Notification'o spalvos "išblukusios")
+- [x] Prideti notification'a kai kuriant mokejimo lapeli pasirankama daugiau nei vienas gydytojas (Notification'o spalvos "išblukusios") {59}
 
 25/05/08
 
-- [x] Eik sistemos kalendoriaus uždarymas (per kiek laiko galima tai padaryti, kol kas tik paslepiam, kad kam nors nulūžus būtų galima pataisyti
-	- [x] Prachekint prisijungimus (neleidzia ant vardo paspaudus keisti savo prisijungimo info) - https://pocebutas.amosas.com/dental/index.php/users/account (404 Page Not Found)
-	- [x] Sufixinti, kad iš dental pereitu i eik, be papildomo prisijungimo
-	- [x] Eik sistemoje išgaudyti linkus nukreipiančius į eik kalendoriu, pakeisti nuorodomis i dental.
+- [x] Eik sistemos kalendoriaus uždarymas (per kiek laiko galima tai padaryti, kol kas tik paslepiam, kad kam nors nulūžus būtų galima pataisyti {60}
+	- [x] Prachekint prisijungimus (neleidzia ant vardo paspaudus keisti savo prisijungimo info) - https://pocebutas.amosas.com/dental/index.php/users/account (404 Page Not Found) {61}
+	- [x] Sufixinti, kad iš dental pereitu i eik, be papildomo prisijungimo {62}
+	- [x] Eik sistemoje išgaudyti linkus nukreipiančius į eik kalendoriu, pakeisti nuorodomis i dental. {63}
 
 
-- [x] Senaji resursu pasiskirstymą irgi paslėpti
-- [x] Išjungti seną pasirašymą ir panaikinti mygtuką "Kliento formos siuntimas SMS'u"
-- [x] Pridėti pac. amžių
+- [x] Senaji resursu pasiskirstymą irgi paslėpti {64}
+- [x] Išjungti seną pasirašymą ir panaikinti mygtuką "Kliento formos siuntimas SMS'u" {65}
+- [x] Pridėti pac. amžių {66}
 
 
-- [x] romoex atnaujinti visus pacientus.
-- [x] kasa patesttuoti auto loada
+- [x] romoex atnaujinti visus pacientus. {67}
+- [x] kasa patesttuoti auto loada {68}
 
 
 25/05/12
 
-- [x] Informacijos skiltyje neleidžia pridėti naujo dokumento, jeigu jis buvo pridėtas eik sistemoje, negalima jo atsidaryti per dental. Paspaudus ant failo meta 404 klaidą.
-- [x] Reikia atvaizdavimo prie vizito, kad yra papildoma info (iki šiol būdavo ⓘ ikona)
+- [x] Informacijos skiltyje neleidžia pridėti naujo dokumento, jeigu jis buvo pridėtas eik sistemoje, negalima jo atsidaryti per dental. Paspaudus ant failo meta 404 klaidą. {69}
+- [x] Reikia atvaizdavimo prie vizito, kad yra papildoma info (iki šiol būdavo ⓘ ikona) {70}
       
 
 25/05/13 
@@ -237,54 +237,52 @@ Kas gali pasirasyti? Matai patikslink (viskas tvarkoje, gali visi išskyrus buha
 
 Linkai, kuriuo reikia sutvarkyti iki penktadienio
 
-- [x] SMS siuntimo nėra dental sistemoje (pacientam ir gydytojam)
+- [x] SMS siuntimo nėra dental sistemoje (pacientam ir gydytojam) {71}
 
-- [x] Panaikinti senus linkus penktadieniui:
-	- [x] Sąmatos --> pasirasyti (paliekame "(N) Pasirašyti")
-	- [x] Eik --> klientai --> pacientas --> paspaudimas ant datos (turi nuvesti ten, kur veda paspaudimas ant kalendoriaus) 
-	- [x] Eik --> klientai --> dokumentų pasirašymas (arba visai panaikinti, arba idėti naujo pasirašymo linką)
-	- [x] Eik --> klientai --> kliento forma (atidaro kalendorių. Nežinau, kas čia iš viso turėtų būti)
-	- [x] Dental --> paspaudus ant vizito --> Kliento formos siuntimas SMS'u (naikiname ir seną pasirašymą)
-	- [x] Dental --> paspaudus ant vizito --> Dokumentų pasirašymas (paliekame tik naują dokumentų pasirašymą)
-	- [x] Dental --> paspaudus ant vizito --> Mokėjimai (turėtų nuvesti į pdf failą, o ne lapelio redagavimą)
+- [x] Panaikinti senus linkus penktadieniui: {72}
+	- [x] Sąmatos --> pasirasyti (paliekame "(N) Pasirašyti") {73}
+	- [x] Eik --> klientai --> pacientas --> paspaudimas ant datos (turi nuvesti ten, kur veda paspaudimas ant kalendoriaus) {74}
+	- [x] Eik --> klientai --> dokumentų pasirašymas (arba visai panaikinti, arba idėti naujo pasirašymo linką) {75}
+	- [x] Eik --> klientai --> kliento forma (atidaro kalendorių. Nežinau, kas čia iš viso turėtų būti) {76}
+	- [x] Dental --> paspaudus ant vizito --> Kliento formos siuntimas SMS'u (naikiname ir seną pasirašymą) {77}
+	- [x] Dental --> paspaudus ant vizito --> Dokumentų pasirašymas (paliekame tik naują dokumentų pasirašymą) {78}
+	- [x] Dental --> paspaudus ant vizito --> Mokėjimai (turėtų nuvesti į pdf failą, o ne lapelio redagavimą) {79}
 
-- [x] Pridėti linką į menu
-	- [x] https://pocebutas.amosas.com/dental/index.php/unfinished_visits/index "kabantys vizitai", nors mano nuomone jų nebereikia, nes turime laikinąsias juostas, bet pereinamąjam laikotarpiui reikia, kad atsirastų. 
-	- [x] Taip pat turi būti galimybė "pakabinti" vizitą šiame lange
+- [x] Pridėti linką į menu {80}
+	- [x] https://pocebutas.amosas.com/dental/index.php/unfinished_visits/index "kabantys vizitai", nors mano nuomone jų nebereikia, nes turime laikinąsias juostas, bet pereinamąjam laikotarpiui reikia, kad atsirastų. {81}
+	- [x] Taip pat turi būti galimybė "pakabinti" vizitą šiame lange {82}
 
-
----
 
 Kita:
 
-- [x] Naujame sąmatos pasirašyme neprideda sąmatos prie paciento
-- [x] Ar sąmatos pasirašymas (lietuviškos raidės pac. varde/pavardėje) pataisytas sandbox'e ar ir prod. turėtų veikti?
+- [x] Naujame sąmatos pasirašyme neprideda sąmatos prie paciento {83}
+- [x] Ar sąmatos pasirašymas (lietuviškos raidės pac. varde/pavardėje) pataisytas sandbox'e ar ir prod. turėtų veikti? {84}
       
-- [x] Dental --> paspaudus ant vizito --> vizitai --> nauja pastaba (išjungus iššokusį langą atsirefreshina ir atidaro šiandien dieną. Turėtų likti toje pačioje dienoje su atidarytu "vizitai" tabu)
-- [x] Dental --> paspaudus ant vizito --> pakeitus vizito informaciją ir paspaudus "atnaujinti" turėtų refreshinti puslapį, kad atsinaujintų vizito informacija kalendoriuje
-- [ ] Naujame pasirašyme ima neaktyvius vartotojus (pvz. Dovile) ( Ima iš Dental -> Pasirašymas -> Parašai ( reikia ištrinti ) ) (Neleidžia ištrinti)
+- [x] Dental --> paspaudus ant vizito --> vizitai --> nauja pastaba (išjungus iššokusį langą atsirefreshina ir atidaro šiandien dieną. Turėtų likti toje pačioje dienoje su atidarytu "vizitai" tabu) {85}
+- [x] Dental --> paspaudus ant vizito --> pakeitus vizito informaciją ir paspaudus "atnaujinti" turėtų refreshinti puslapį, kad atsinaujintų vizito informacija kalendoriuje {86}
+- [x] Naujame pasirašyme ima neaktyvius vartotojus (pvz. Dovile) ( Ima iš Dental -> Pasirašymas -> Parašai ( reikia ištrinti ) ) (Neleidžia ištrinti) {87}
 
-- [x] Neištraukia sveikatos būklės anketos iš naujo pasirašymo (dokumento id: 240 (2. Sveikatos būklės anketa))
+- [x] Neištraukia sveikatos būklės anketos iš naujo pasirašymo (dokumento id: 240 (2. Sveikatos būklės anketa)) {88}
 
-- [x] Neatnaujina kalendoriuje atvaizdavimo, kai pasirašo sutartį/užpildo sveikatos būklės anketą ( čia yra E25) (Pakeisti oranžine spalva į geltona, jeigu gerai pamenu pagal ką statusai keičiasi tai dabar turėtų būti Raudonas - neužpildyta; Geltonas - E025 užregistruota, bet nepasirašyta; Žalia - užpildyta ir pasirašyta()
+- [x] Neatnaujina kalendoriuje atvaizdavimo, kai pasirašo sutartį/užpildo sveikatos būklės anketą ( čia yra E25) (Pakeisti oranžine spalva į geltona, jeigu gerai pamenu pagal ką statusai keičiasi tai dabar turėtų būti Raudonas - neužpildyta; Geltonas - E025 užregistruota, bet nepasirašyta; Žalia - užpildyta ir pasirašyta() {89}
 
-- [x] Keli kliento tipai neatvaizduojami (gal spalvų problema?)(Paskutinėje foto išrinkti tipai surie yra "undefined") (reik duombazei patikrinti) (s1 veikia gerai)
+- [x] Keli kliento tipai neatvaizduojami (gal spalvų problema?)(Paskutinėje foto išrinkti tipai surie yra "undefined") (reik duombazei patikrinti) (s1 veikia gerai) {90}
 
 
 
-- [x] Reikia "Ateities vizitų" atvaizdavimo, bendram kalendoriaus vaizde kaip buvo eik sistemoj. (Dabar dental matosi ar turi ateity vizitų tik pelyte užėjus ant vizito iššokančiame juodame lange)
+- [x] Reikia "Ateities vizitų" atvaizdavimo, bendram kalendoriaus vaizde kaip buvo eik sistemoj. (Dabar dental matosi ar turi ateity vizitų tik pelyte užėjus ant vizito iššokančiame juodame lange) {91}
       
 
-- [ ] Nebenaudojami meniu punktai (sumastyti, gal galima juos kam nors pritaikyti)
-	- [ ] Atspaudai
-	- [ ] Vekseliai
-- [ ] Avansinis mokėjimas siunčiamas per contomobile kai apmokamas reikia, kad pakeistų tik apmokėjimo statusą ie nekeistų ar atvyks statuso (Raimundui)
-- [x] Pasirašyme pridėti Paragrafas name = "signature" --> gydytojo parašas. Parašus įkelsiu į https://pocebutas.amosas.com/dental/doctors_sign (Raimundas)
-	- [ ] Plansetes ekrane prideti, kuri kede pasirinkta
+- [ ] Nebenaudojami meniu punktai (sumastyti, gal galima juos kam nors pritaikyti) {92}
+	- [ ] Atspaudai {93}
+	- [ ] Vekseliai {94}
+- [ ] Avansinis mokėjimas siunčiamas per contomobile kai apmokamas reikia, kad pakeistų tik apmokėjimo statusą ie nekeistų ar atvyks statuso (Raimundui) {95}
+- [x] Pasirašyme pridėti Paragrafas name = "signature" --> gydytojo parašas. Parašus įkelsiu į https://pocebutas.amosas.com/dental/doctors_sign (Raimundas) {96}
+	- [ ] Plansetes ekrane prideti, kuri kede pasirinkta {97}
 
 25/05/15 Svarbu!
 
-- [ ] Dental --> vizitai (greitas) --> paslaugos pastabos (nėra ateities vizitų). Juos pridėti ir į atskira stulpelį "sveikatos istorijos" tabe
+- [x] Dental --> vizitai (greitas) --> paslaugos pastabos (nėra ateities vizitų). Juos pridėti ir į atskira stulpelį "sveikatos istorijos" tabe {98}
 
 
 25/05/16 
@@ -292,33 +290,33 @@ Kita:
 
 Dental paciento tabai
 
-- [x] klientas --> informacija - nėra pridėti nauja 
-- [ ] klientas --> informacija - nėra ištrinti 
-- [x] Nauja pastaba paspaudus ne naujame puslapyje atidarineti, o tame paciame ir pridėti grizimo mygtuka nukreipianti atgal i pac vizitus
+- [x] klientas --> informacija - nėra pridėti nauja {99}
+- [ ] klientas --> informacija - nėra ištrinti {100}
+- [x] Nauja pastaba paspaudus ne naujame puslapyje atidarineti, o tame paciame ir pridėti grizimo mygtuka nukreipianti atgal i pac vizitus {101}
 
 Dental meniu
 
-- [x] Bendras ateities vizitai 
-- [x] SMS siuntimas gydytojam ir pac. 
+- [x] Bendras ateities vizitai {102}
+- [x] SMS siuntimas gydytojam ir pac. {103}
 
 Kalendorius
 
-- [ ] juodame issokanciame fone vietoje pastabos vaizduoti SMS atsakymą (vietoje patabos)
-- [ ] Vizito kūrimas iš paciento kortelės
+- [ ] juodame issokanciame fone vietoje pastabos vaizduoti SMS atsakymą (vietoje patabos) {104}
+- [ ] Vizito kūrimas iš paciento kortelės {105}
 
 Sign
 
-- [ ] pasirasimas vel prizoomina (Matas viska perziureti)
-- [ ] Plansu pasirasymas ir kitom kalbom (bent ang. k.)
+- [ ] pasirasimas vel prizoomina (Matas viska perziureti) {106}
+- [ ] Plansu pasirasymas ir kitom kalbom (bent ang. k.) {107}
 
 Statistika
 
-- [ ] Kaip patikrinti ar statistika yra teisinga? (raw duomenys)
-- [ ] Kaip patikrinti, kad gydytojų ataskaitos val. yra teisingos?
-- [ ] (?) Vizito "Nukreipimas pas" sekti nukreipimus ir teikti ataskaitą kiek kiekvienas gydytojas nukreipė pacientų. Reikia išsiaiškinti parametrus kaip filtruoti pvz.: visi, po pirmo vizto ir pan. taip pat randant budu kaip padaryti, kad nukreipimo neskaiciuotu jeigu zmogus jau turi eiti pas kitą gydytoją. (Papildomas bonusas gydytojam)
-- [ ] Pokalbiu analize su AI (kaip kalba)
-- [ ] Platesnė pokalbiu statistika, kiek laiko užtrunka darbuotojui atsiliepti ir pan. (neskaiciuoti atostogu)
-- [ ] Vidutinė paslaugos kaina ty. kiek kainuoja paslauga pridejus visas paslaugas (pvz. dantu plombavimas=plombavimas+nuskausminimai+sterilus+nuotraukos ir pan)
+- [ ] Kaip patikrinti ar statistika yra teisinga? (raw duomenys) {108}
+- [ ] Kaip patikrinti, kad gydytojų ataskaitos val. yra teisingos? {109}
+- [ ] (?) Vizito "Nukreipimas pas" sekti nukreipimus ir teikti ataskaitą kiek kiekvienas gydytojas nukreipė pacientų. Reikia išsiaiškinti parametrus kaip filtruoti pvz.: visi, po pirmo vizto ir pan. taip pat randant budu kaip padaryti, kad nukreipimo neskaiciuotu jeigu zmogus jau turi eiti pas kitą gydytoją. (Papildomas bonusas gydytojam) {110}
+- [ ] Pokalbiu analize su AI (kaip kalba) {111}
+- [ ] Platesnė pokalbiu statistika, kiek laiko užtrunka darbuotojui atsiliepti ir pan. (neskaiciuoti atostogu) {112}
+- [ ] Vidutinė paslaugos kaina ty. kiek kainuoja paslauga pridejus visas paslaugas (pvz. dantu plombavimas=plombavimas+nuskausminimai+sterilus+nuotraukos ir pan) {113}
 
 
 25/05/20 
@@ -326,51 +324,70 @@ Statistika
 
 Romexis
 
-- [ ] Žmogiškieji resursai --> Romexis Romexio lange išdidina anotacijas (pvz. Romualdas Balčiūnaitis)
+- [ ] Žmogiškieji resursai --> Romexis Romexio lange išdidina anotacijas (pvz. Romualdas Balčiūnaitis) {114}
 
 
 
-- [ ] Vizito žymėjimas: nr.7 turi žymėti ar turime pasirašytą naują sutartį (kaip eik sistemoje buvo raudonas brukšninis pabraukimas po vizitu. Jeigu pasirašyta žymėjimo nereikia).
-	- [ ] Pridedu ir kitus žymėjimus pasitikrinam, kad jie sutaptų.
+- [ ] Vizito žymėjimas: nr.7 turi žymėti ar turime pasirašytą naują sutartį (kaip eik sistemoje buvo raudonas brukšninis pabraukimas po vizitu. Jeigu pasirašyta žymėjimo nereikia). {115}
+	- [ ] Pridedu ir kitus žymėjimus pasitikrinam, kad jie sutaptų. {116}
 
-- [ ] Sukurti "Neregistruoti" statusą, kurį galima paskirti pacientui. Su šiuo statusu paciento vizito neleidžia užregistruoti ir išmeta notification "Registruoti tik su direktoriaus patvirtinimu".
-	- [ ] Teisės: Suteikti šį statusą, jį nuimti ar užregistruoti vizitą/ jį redaguoti gali tik "valdzia"
+- [ ] Sukurti "Neregistruoti" statusą, kurį galima paskirti pacientui. Su šiuo statusu paciento vizito neleidžia užregistruoti ir išmeta notification "Registruoti tik su direktoriaus patvirtinimu". {117}
+	- [ ] Teisės: Suteikti šį statusą, jį nuimti ar užregistruoti vizitą/ jį redaguoti gali tik "valdzia" {118}
 
 	- Koks laiko tarpas uždėtas ant pin kodo? Po kiek laiko neaktyvumo prašo įvesti pin? 30min 
 	- Ar galima pamažinti kėdžių tulpelio plotį? Patogiausia būtų jeigu galėtume laisvai prasitempti jas į plotį jeigu reikia, bet mažai naudojamas kėdes (R, X1, S1, S2) galėtų būti plonesnės. (stulpeliu ploti ne istrinti prideti taip)
 	- Ar galima pastabų layer'yje matyti vizitus?
-- [ ] Vizitų dubliavimas kalendoriaus vaizde. Pavyksta iššaukti kelis kartus nuspaudus layerio ikona. Kiek kartų nuspaudi - tiek atkartoja.
+- [x] Vizitų dubliavimas kalendoriaus vaizde. Pavyksta iššaukti kelis kartus nuspaudus layerio ikona. Kiek kartų nuspaudi - tiek atkartoja. {119}
       
       
 
 
 25/05/21
 
-- [ ] Klientų tipai --> iš eik į dental neatkeliauja informacija ty. neprisideda naujos pozicijos, nepasikeičia spalvos ir pan.
-- [ ] Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https://pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804
-- [ ] avansiniai per conto mobile. proble,ma kad issiuntus mokejima pakeicia atvykimo statusa. turetu keisti tik apmokejimo.
-- [ ] Kuriant Nauja vizita butu galima sukurti nauja priminimą kalendoriuje.
-- [ ] Kalendoriuje -> vizitai->kliento Duomenys -> išhardcodinti Kliento tipai
-- [ ] Klientą atsidarius prie datos yra vizito pradžios laikas ,bet nėra nurodyta vizito trukmė
+- [x] Klientų tipai --> iš eik į dental neatkeliauja informacija ty. neprisideda naujos pozicijos, nepasikeičia spalvos ir pan. {120}
+- [x] Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https://pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804 {121}
+- [ ] avansiniai per conto mobile. proble,ma kad issiuntus mokejima pakeicia atvykimo statusa. turetu keisti tik apmokejimo. {122}
+- [ ] Kuriant Nauja vizita butu galima sukurti nauja priminimą kalendoriuje. {123}
+- [x] Kalendoriuje -> vizitai->kliento Duomenys -> išhardcodinti Kliento tipai {124}
+- [x] Klientą atsidarius prie datos yra vizito pradžios laikas ,bet nėra nurodyta vizito trukmė {125}
 
 
 reikia skubiai
-- [ ] romex anotaciju dydis.
-- [ ] Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https://pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804
-- [ ] klientu tipai
-- [ ] kur neleidzia istrinti gydytoju.
-- [ ] imti sukurimo laika. kas ta vizita is tikro kada sukure.nes dabar rodo data dabar, o ne ta ka reikia.
+- [ ] romex anotaciju dydis. {126}
+- [x] Sveikatos istorijoje padaryt > (Ateities vizita rodyti) https://pocebutas.amosas.com/eik/admin/moduleinterface.php?sp_=2f9dd0d7&mact=Forms,m1_,new,0&m1_template=80&m1_visit=241804 {127}
+- [x] klientu tipai {128}
+- [x] kur neleidzia istrinti gydytoju. {129}
+- [x] imti sukurimo laika. kas ta vizita is tikro kada sukure.nes dabar rodo data dabar, o ne ta ka reikia. {130}
       
-- [ ] anketu siuntimas sms/email is anksto.kiek kainuos? reiktu pasidaryti. pagalvoti.
+- [ ] anketu siuntimas sms/email is anksto.kiek kainuos? reiktu pasidaryti. pagalvoti. {131}
       
-- [ ] pirminis diagnoziu aprasymas trumpas su galimybe uzcekinti. multi. uztenka lenteles. galimybe cekams.
+- [ ] pirminis diagnoziu aprasymas trumpas su galimybe uzcekinti. multi. uztenka lenteles. galimybe cekams. {132}
 
 25/05/22
 
 
 Sign
 
-- [ ] Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. (Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240)
+- [ ] Pasirinkus vieną dokumentą iš sąrašo prieš jį įdeda dokumentus iš paketo. (Pvz. įdedu doc. nr. 247, o prieš jį įkrenta 239, 240) {133}
       
-- [ ] Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ty. asmens kodas, gyvenamoji vieta ir pan. atsirastų prie paciento.
+- [ ] Reikia, kad sutartyje užpildyti duomenys persikeltų į sistemą ty. asmens kodas, gyvenamoji vieta ir pan. atsirastų prie paciento. {134}
 
+Kalendorius
+
+- [ ] Po refreshinimo likti toje pačioje dienoje. Dabar peršoka į šiandien dieną. {135}
+
+SMS
+
+- [ ] Perkelta iš 2025-04-14 Paciento sms atsakymas "Taip." užskaitytų, kaip "TAIP". Dabar jeigu po atsakymo yra "." "," ar pan. neužskaito. {136}
+
+25/05/26
+
+
+Skambučiai
+
+- [ ] Monikai irgi neleidžia perklausyti skambučių. Jeigu teisės įhardcodintos pakeisti į (valdžia, admin) {137}
+
+
+Kalendorius
+
+- [ ] "Vizitai" 10 metų dabar maksimalus. Reikia, kad leistų pažiūrėti visus. {138}
