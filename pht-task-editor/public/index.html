@@ -17,6 +17,23 @@
 
   <!-- Task Editor Panel -->
   <section id="editorPanel" class="tab-panel" role="tabpanel">
+    <div class="filter-controls">
+      <div class="filter-row">
+        <label for="tagFilter">Tag</label>
+        <select id="tagFilter"></select>
+      </div>
+      <div class="filter-row">
+        <label for="categoryFilter">Category</label>
+        <select id="categoryFilter"></select>
+      </div>
+      <div class="filter-row">
+        <label for="dateFilter">Date</label>
+        <input type="date" id="dateFilter">
+      </div>
+      <div class="filter-row">
+        <button id="clearFilterBtn">Clear Filters</button>
+      </div>
+    </div>
     <div class="editor-layout">
       <div id="task-list" class="task-list">
         <!-- List of task titles will appear here -->
@@ -30,33 +47,27 @@
 
   <!-- Changelog Panel -->
   <section id="changelogPanel" class="tab-panel" role="tabpanel" hidden>
-    <div class="changelog-date-group">
-      <h3 class="date-heading">May 19, 2025</h3>
-      <div class="changelog-entry">
-        <div class="entry-dot"></div>
-        <div class="entry-content">
-          <p><strong>Title</strong> changed from "Design UI" to "Design UX".</p>
-          <span class="entry-meta">by Alice at 14:32</span>
-        </div>
-      </div>
-      <div class="changelog-entry">
-        <div class="entry-dot"></div>
-        <div class="entry-content">
-          <p><strong>Locked</strong> status turned ON.</p>
-          <span class="entry-meta">by Bob at 09:10</span>
-        </div>
-      </div>
-    </div>
-    <div class="changelog-date-group">
-      <h3 class="date-heading">May 18, 2025</h3>
-      <div class="changelog-entry">
-        <div class="entry-dot"></div>
-        <div class="entry-content">
-          <p>Task <strong>“New Login Flow”</strong> created.</p>
-          <span class="entry-meta">by Alice at 17:45</span>
-        </div>
+    <div class="changelog-toolbar">
+      <div class="export-controls">
+        <label for="exportTagFilter">Tag</label>
+        <select id="exportTagFilter"></select>
+
+        <label for="exportStartDate">From</label>
+        <input type="date" id="exportStartDate">
+        <label for="exportEndDate">To</label>
+        <input type="date" id="exportEndDate">
+
+        <label for="exportDoneFilter">Done</label>
+        <select id="exportDoneFilter">
+          <option value="">All</option>
+          <option value="true">✓ Done</option>
+          <option value="false">Not Done</option>
+        </select>
+
+        <button id="exportDoneBtn">Export Done Tasks</button>
       </div>
     </div>
+    <div class="changelog-log"></div>
   </section>
 
   <script src="editor.js"></script>
