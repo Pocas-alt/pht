@@ -361,4 +361,14 @@ document.addEventListener('DOMContentLoaded', function () {
       URL.revokeObjectURL(url);
     });
   }
+
+  // Update changelog preview when export date filters change
+  const exportStartDateInput = document.getElementById('exportStartDate');
+  const exportEndDateInput = document.getElementById('exportEndDate');
+  if (exportStartDateInput) {
+    exportStartDateInput.addEventListener('change', renderChangelog);
+  }
+  if (exportEndDateInput) {
+    exportEndDateInput.addEventListener('change', renderChangelog);
+  }
 });
