@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+    --color-accent: #3b82f6;
+    --color-accent-hover: #2d6fbc;
+    --card-color: #f5f5f5;
+    --muted-text: #888888;
+
+    /* Tag Colors */
+    --tag-bug-color: #e74c3c;
+    --tag-feature-color: #8e44ad;
+
+    /* Typography */
+    --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+    --max-width: 100%;
+}
+
+[data-theme="dark"] {
+    --color-bg: #121212;
+    --color-text: #e4e4e4;
+    --card-color: #1e1e1e;
+    --color-accent: #3b82f6;
+    --color-accent-hover: #6faefb;
+    --muted-text: #666;
+}

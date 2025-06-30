@@ -1,0 +1,57 @@
+.changelog-entry {
+    position: relative;
+    background-color: var(--card-color);
+    color: var(--color-text);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.5rem;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.changelog-entry:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.entry-tag {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.entry-tag.fix {
+    background-color: #22c55e;
+    color: white;
+}
+
+.entry-tag.update {
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.entry-tag.new {
+    background-color: #a855f7;
+    color: white;
+}
+
+.entry-tag.improvement {
+    background-color: #f97316;
+    color: white;
+}
+
+.entry-tag.future {
+    background-color: #6366f1;
+    color: white;
+}

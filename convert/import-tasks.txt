@@ -1,0 +1,97 @@
+Kalendorius
+
+- [ ] Po refreshinimo likti toje pačioje dienoje. Dabar peršoka į šiandien dieną. 
+
+SMS
+
+- [ ] Perkelta iš 2025-04-14 Paciento sms atsakymas "Taip." užskaitytų, kaip "TAIP". Dabar jeigu po atsakymo yra "." "," ar pan. neužskaito. 
+
+25/05/26
+
+
+Skambučiai
+
+- [ ] Monikai irgi neleidžia perklausyti skambučių. Jeigu teisės įhardcodintos pakeisti į (valdžia, admin) 
+
+
+Kalendorius
+
+- [ ] "Vizitai" 10 metų dabar maksimalus. Reikia, kad leistų pažiūrėti visus. 
+
+
+25/05/28
+
+
+Kliento tipai
+
+- [ ] Paslėpti iš paciento kortelės kliento tipus paspaudus atsiras (gydytojas atsidaro šį langą ir jo pacientas mato kokie tipai jam yra uždėti) 
+      
+
+Sign
+
+- [ ] Užkelti naują sutartį, bei imti iš jos duomenys paciento duomenų papildymui. 
+      
+
+Romexis
+
+- [ ] Pridėti Romexio linką į pac. meniu juostą 
+
+
+Kalendorius
+
+- [ ] Kai patvirtinamos atostogos ir sukuriamas priminimas, kad darbuotojas atostogaus, jį daryti raudonos spalvos. 
+      
+
+Sąmatos
+
+- [ ] Paspaudus "pasirašyti" mygtukas turi pakeisti spalva tik tuomet kai sąmata pasirašyta. 
+
+25/06/02
+
+- [ ] Prijungti mano tel. nr. +37068663989 kad gaučiau romexio žinutes. 
+      
+- [ ] Sukūrus mokėjima, sąskaitą ar pan. informacija production'e, poto ją ištrinti, kad skaičiavime nepadarytų klaidų. 
+
+
+25/06/03
+
+- [ ] vizita patempus, prailginus ir pan. Ismesti notificationa "ar tikrai norite pakeisti vizito laik?"  Netyciom per tel ar pc paslenka 
+- [ ] Pop-up neatnaujina vizito laiko po paslinkimo - vizito laiko pakeitimo su pele 
+
+25/06/05
+
+- [ ] Pritaikius nuolaidą suapvalinti kainą. Be kablelio. 
+- [ ] Bald'inti id numeri 
+
+- [ ] Renatai pin kodas ne visada veikia. Nuejus nuo pc ir gryzus po kurio laiko praso pin kodo, bet neleidzia jo ivesti 
+
+25/06/06
+
+- [ ] Žinutės gydytojam "Agata negauna". Paspaudus ant paciento, kad klientas atvyko neatsinaujina prie zinutes gydytojam, o siunciant per zinutes gydytojam info islieka, bet pranesimo gydytojas vis tiek negauna. (Eik sistemoje pranesimai suvaiksto) 
+
+Raimundui
+Darius prašo detalios atliktų darbų sąskaitos. Atbuline data tikriausiai neatseksime, bet kaip padaryti, kad galėtų žinoti kiek koks darbas kainavo?
+
+
+25/06/09
+
+- [ ] Iš klientų modulio (eik sistemoje), paspaudus ant datos, kai grįžta į dental kalendorių viršuje data atsinaujina, kairiame kalendoriuje - ne. 
+      
+
+
+25/06/17
+
+- [ ] Mokėjimo lapeliuose pridėti mokjimą pavedimu ir kad jis būtų nefiskalinis. 
+- [ ] Sms siuntimas pacientams kedems (X1, R, S1, S2) checkbox'ai tureru buti disabled, kad nereiketu kiekviena karta atzymeti 
+
+25/06/19
+
+- [ ] Kuriant vizitą sumažinti kiek paslaugų yra vaiduojama (kur tai galima pakeisti?) 
+
+
+25/06/27
+
+- [ ] "Laboratorija" modulio perdarymas. Tikslas: matyti kokie darbai buvo atlikti pagal pateiktą SF. Paliekame: Vizitas, Gydytojas, Data pateikta, Pateikė, Darbų suma, Klientas, Komentaras
+      Pridedame: Laboratorijos pavadinimas (galima imti iš Technikai modulio pasirinkti), SF numeris (laisvai įvedamas)
+      Naikiname: Data uždarė, Detalių suma, Viso suma, Mėnesis, Statusas
+      Filtrai: Nereikia statuso ir mėnesio. Reikia pridėti: laboratorijos pav., SF numeris 
